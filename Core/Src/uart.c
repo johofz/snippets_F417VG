@@ -152,6 +152,7 @@ void usart_enable_idle_line_irq(USART_TypeDef* usart)
 {
     assert(usart);
 
-
+    usart_register_irq(usart, 0);
+    usart->CR1 |= (USART_CR1_IDLEIE);   // enable idle line interrupt
 }
 
