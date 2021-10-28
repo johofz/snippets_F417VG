@@ -90,6 +90,9 @@ void usart_init_async(USART_TypeDef* usart)
         GPIOD->AFR[0] |= (8 << 8);  // PD2 (RX) alternate function: AF8 (UART5_RX)
         break;
     }
+
+    default:
+        assert(0);
     }
 
     usart->CR1 = 0x00;  // clear control register 1
@@ -133,6 +136,9 @@ void usart_register_irq(USART_TypeDef* usart, uint32_t priority)
         __NVIC_SetPriority(UART5_IRQn, priority);
         __NVIC_EnableIRQ(UART5_IRQn);
         break;
+
+    default:
+        assert(0);
     }
 }
 
@@ -146,6 +152,18 @@ void usart_set_baude(USART_TypeDef* usart, uint32_t baude)
     uint16_t fraction = (uint16_t)((usartDiv - mentissa) * 16.0f);
     usart->BRR |= (mentissa << 4);
     usart->BRR |= (fraction << 0);
+}
+
+void usart_dma_receive(USART_TypeDef* usart)
+{
+    switch ((uint32_t)usart)
+    {
+    case (uint32_t)USART1:
+        break;
+
+    default:
+        assert(0);
+    }
 }
 
 void usart_enable_idle_line_irq(USART_TypeDef* usart)
