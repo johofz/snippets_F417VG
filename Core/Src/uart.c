@@ -154,7 +154,7 @@ void usart_set_baude(USART_TypeDef* usart, uint32_t baude)
     usart->BRR |= (fraction << 0);
 }
 
-void usart_init_dma_receive(USART_TypeDef* usart)
+void usart_init_dma_receive(USART_TypeDef* usart, uint8_t* rxBuf, uint16_t size)
 {
     assert(usart);
 
@@ -236,6 +236,12 @@ void usart_init_dma_receive(USART_TypeDef* usart)
         (DMA_SxCR_HTIE) |                   // Half transfer interrupt: enabled
         (DMA_SxCR_TEIE) |                   // Transfer error interrupt: enabled
         (DMA_SxCR_DMEIE));                  // Direct mode error interrupt: enabled
+
+    dma->NDTR = size;                   // Size of the RX buffer
+    dma->PAR = (uint32_t)&usart->DR;    // Address of the Peripheral register to read from
+    dma->M0AR = (uint32_t)rxBuf;        // Address of the RX buffer to store data in
+
+    dma->CR |= (DMA_SxCR_EN);   // enable DMA
 }
 
 void usart_enable_idle_line_irq(USART_TypeDef* usart)
