@@ -108,32 +108,32 @@ void usart_register_irq(USART_TypeDef* usart, uint32_t priority)
     switch ((uint32_t)usart)
     {
     case (uint32_t)USART1:
-        __NVIC_SetPriority(USART1_IRQn, priority);  // set interrupt priority
+        __NVIC_SetPriority(USART1_IRQn, _priority);  // set interrupt priority
         __NVIC_EnableIRQ(USART1_IRQn);	            // enable interrupt
         break;
 
     case (uint32_t)USART2:
-        __NVIC_SetPriority(USART2_IRQn, priority);
+        __NVIC_SetPriority(USART2_IRQn, _priority);
         __NVIC_EnableIRQ(USART2_IRQn);
         break;
 
     case (uint32_t)USART3:
-        __NVIC_SetPriority(USART3_IRQn, priority);
+        __NVIC_SetPriority(USART3_IRQn, _priority);
         __NVIC_EnableIRQ(USART3_IRQn);
         break;
 
     case (uint32_t)USART6:
-        __NVIC_SetPriority(USART6_IRQn, priority);
+        __NVIC_SetPriority(USART6_IRQn, _priority);
         __NVIC_EnableIRQ(USART6_IRQn);
         break;
 
     case (uint32_t)UART4:
-        __NVIC_SetPriority(UART4_IRQn, priority);
+        __NVIC_SetPriority(UART4_IRQn, _priority);
         __NVIC_EnableIRQ(UART4_IRQn);
         break;
 
     case (uint32_t)UART5:
-        __NVIC_SetPriority(UART5_IRQn, priority);
+        __NVIC_SetPriority(UART5_IRQn, _priority);
         __NVIC_EnableIRQ(UART5_IRQn);
         break;
 
@@ -154,16 +154,88 @@ void usart_set_baude(USART_TypeDef* usart, uint32_t baude)
     usart->BRR |= (fraction << 0);
 }
 
-void usart_dma_receive(USART_TypeDef* usart)
+void usart_init_dma_receive(USART_TypeDef* usart)
 {
+    assert(usart);
+
+    DMA_Stream_TypeDef* dma;
+
     switch ((uint32_t)usart)
     {
     case (uint32_t)USART1:
+    {
+        RCC->AHB1ENR |= (RCC_AHB1ENR_DMA2EN);
+        __NVIC_SetPriority(DMA2_Stream2_IRQn, 0);
+        __NVIC_SetPriority(DMA2_Stream2_IRQn, 0);
+        dma = DMA2_Stream2;
         break;
+    }
+    case (uint32_t)USART2:
+    {
+        RCC->AHB1ENR |= (RCC_AHB1ENR_DMA1EN);
+        __NVIC_SetPriority(DMA1_Stream5_IRQn, 0);
+        __NVIC_SetPriority(DMA1_Stream5_IRQn, 0);
+        dma = DMA1_Stream5;
+        break;
+    }
+    case (uint32_t)USART3:
+    {
+        RCC->AHB1ENR |= (RCC_AHB1ENR_DMA1EN);
+        __NVIC_SetPriority(DMA1_Stream1_IRQn, 0);
+        __NVIC_SetPriority(DMA1_Stream1_IRQn, 0);
+        dma = DMA1_Stream1;
+        break;
+    }
+    case (uint32_t)USART6:
+    {
+        RCC->AHB1ENR |= (RCC_AHB1ENR_DMA2EN);
+        __NVIC_SetPriority(DMA2_Stream1_IRQn, 0);
+        __NVIC_SetPriority(DMA2_Stream1_IRQn, 0);
+        dma = DMA2_Stream1;
+        break;
+    }
+    case (uint32_t)UART4:
+    {
+        RCC->AHB1ENR |= (RCC_AHB1ENR_DMA1EN);
+        __NVIC_SetPriority(DMA1_Stream2_IRQn, 0);
+        __NVIC_SetPriority(DMA1_Stream2_IRQn, 0);
+        dma = DMA1_Stream2;
+        break;
+    }
+    case (uint32_t)UART5:
+    {
+        RCC->AHB1ENR |= (RCC_AHB1ENR_DMA1EN);
+        __NVIC_SetPriority(DMA1_Stream0_IRQn, 0);
+        __NVIC_SetPriority(DMA1_Stream0_IRQn, 0);
+        dma = DMA1_Stream0;
+        break;
+    }
 
     default:
         assert(0);
     }
+
+    dma->CR |= (DMA_SxCR_EN);   // disable DMA stream
+
+    dma->CR &= ~((DMA_SxCR_CHSEL_Msk) |     // Channel selection: channel 0
+        (DMA_SxCR_MBURST_Msk) |             // Memory burst transfer configuration: single transfer
+        (DMA_SxCR_PBURST_Msk) |             // Peripheral burst transfer configuration: single transfer
+        (DMA_SxCR_CT) |                     // Current target (only in double buffer mode)
+        (DMA_SxCR_DBM) |                    // Double buffer mode: No buffer switching at the end of transfer
+        (DMA_SxCR_PINCOS) |                 // Peripheral increment offset size: Linked to the PSIZE
+        (DMA_SxCR_MSIZE_Msk) |              // Memory data size: Byte (8-bit)
+        (DMA_SxCR_PSIZE_Msk) |              // Peripheral data size: Byte (8-bit)
+        (DMA_SxCR_PINC) |                   // Peripheral increment mode: Peripheral address pointer is fixed
+        (DMA_SxCR_CIRC) |                   // Circular mode: disabled
+        (DMA_SxCR_DIR_Msk) |                // Data transfer direction: Peripheral-to-memory
+        (DMA_SxCR_PFCTRL));                 // Peripheral flow controller: DMA is the flow controller
+
+    dma->CR |= ((1 << DMA_SxCR_PL_Pos) |    // Priority level: meduim
+        (DMA_SxCR_MINC) |                   // Memory increment mode: memory address pointer is incremented
+        (DMA_SxCR_TCIE) |                   // Transfer complete interrupt: enabled
+        (DMA_SxCR_HTIE) |                   // Half transfer interrupt: enabled
+        (DMA_SxCR_TEIE) |                   // Transfer error interrupt: enabled
+        (DMA_SxCR_DMEIE));                  // Direct mode error interrupt: enabled
 }
 
 void usart_enable_idle_line_irq(USART_TypeDef* usart)

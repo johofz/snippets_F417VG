@@ -1,13 +1,95 @@
 Archive member included to satisfy reference by file (symbol)
 
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-assert.o)
+                              build/uart.o (__assert_func)
 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
                               c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (exit)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fprintf.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-assert.o) (fiprintf)
 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
                               c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
                               c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (__libc_init_array)
 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
                               c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (memset)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fprintf.o) (_vfprintf_r)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o) (_printf_i)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o) (__swbuf_r)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wsetup.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o) (__swsetup_r)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-abort.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-assert.o) (abort)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o) (_fflush_r)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o) (__sinit)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fvwrite.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o) (__sfvwrite_r)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fwalk.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o) (_fwalk)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o) (__retarget_lock_init_recursive)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-makebuf.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wsetup.o) (__smakebuf_r)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memchr.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o) (memchr)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fvwrite.o) (memcpy)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memmove.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fvwrite.o) (memmove)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wsetup.o) (_free_r)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o) (_malloc_r)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fvwrite.o) (_realloc_r)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-abort.o) (raise)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signalr.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o) (_kill_r)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o) (__sread)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-writer.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o) (_write_r)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-closer.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o) (_close_r)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fstatr.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-makebuf.o) (_fstat_r)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-isattyr.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-makebuf.o) (_isatty_r)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lseekr.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o) (_lseek_r)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o) (__malloc_lock)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-msizer.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-readr.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o) (_read_r)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o) (errno)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(close.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-closer.o) (_close)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(fstat.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fstatr.o) (_fstat)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(getpid.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signalr.o) (_getpid)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(isatty.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-isattyr.o) (_isatty)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(kill.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signalr.o) (_kill)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lseekr.o) (_lseek)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(read.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-readr.o) (_read)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o) (_sbrk)
+c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(write.o)
+                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-writer.o) (_write)
 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
                               c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o) (_exit)
 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
@@ -53,15 +135,42 @@ Discarded input sections
  .text          0x00000000        0x0 build/uart.o
  .data          0x00000000        0x0 build/uart.o
  .bss           0x00000000        0x0 build/uart.o
- .debug_info    0x00000000       0x6b build/uart.o
- .debug_abbrev  0x00000000       0x26 build/uart.o
+ .rodata.usart_init_async.str1.4
+                0x00000000       0x1a build/uart.o
+ .text.usart_init_async
+                0x00000000      0x1e4 build/uart.o
+ .text.usart_register_irq
+                0x00000000       0xe0 build/uart.o
+ .rodata.usart_set_baude.str1.4
+                0x00000000       0x10 build/uart.o
+ .text.usart_set_baude
+                0x00000000       0x8c build/uart.o
+ .text.usart_init_dma_receive
+                0x00000000      0x140 build/uart.o
+ .text.usart_enable_idle_line_irq
+                0x00000000       0x30 build/uart.o
+ .rodata.__func__.0
+                0x00000000       0x1b build/uart.o
+ .rodata.__func__.1
+                0x00000000       0x17 build/uart.o
+ .rodata.__func__.2
+                0x00000000       0x10 build/uart.o
+ .rodata.__func__.3
+                0x00000000       0x13 build/uart.o
+ .rodata.__func__.4
+                0x00000000       0x11 build/uart.o
+ .debug_info    0x00000000     0x12fe build/uart.o
+ .debug_abbrev  0x00000000      0x1d7 build/uart.o
+ .debug_loc     0x00000000      0xb22 build/uart.o
  .debug_aranges
-                0x00000000       0x18 build/uart.o
- .debug_line    0x00000000       0x1d build/uart.o
- .debug_str     0x00000000      0x165 build/uart.o
+                0x00000000       0x40 build/uart.o
+ .debug_ranges  0x00000000       0x30 build/uart.o
+ .debug_line    0x00000000      0x7e1 build/uart.o
+ .debug_str     0x00000000      0x99b build/uart.o
  .comment       0x00000000       0x4a build/uart.o
+ .debug_frame   0x00000000       0x88 build/uart.o
  .ARM.attributes
-                0x00000000       0x39 build/uart.o
+                0x00000000       0x34 build/uart.o
  .text          0x00000000        0x0 build/stm32f4xx_hal.o
  .data          0x00000000        0x0 build/stm32f4xx_hal.o
  .bss           0x00000000        0x0 build/stm32f4xx_hal.o
@@ -542,6 +651,18 @@ Discarded input sections
  .text          0x00000000       0x14 build/startup_stm32f417xx.o
  .data          0x00000000        0x0 build/startup_stm32f417xx.o
  .bss           0x00000000        0x0 build/startup_stm32f417xx.o
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-assert.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-assert.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-assert.o)
+ .rodata.__assert_func.str1.1
+                0x00000000       0x3d c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-assert.o)
+ .text.__assert_func
+                0x00000000       0x3c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-assert.o)
+ .text.__assert
+                0x00000000        0xa c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-assert.o)
+ .debug_frame   0x00000000       0x40 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-assert.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-assert.o)
  .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
  .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
  .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
@@ -549,6 +670,15 @@ Discarded input sections
  .debug_frame   0x00000000       0x28 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
  .ARM.attributes
                 0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fprintf.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fprintf.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fprintf.o)
+ .text._fprintf_r
+                0x00000000       0x1a c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fprintf.o)
+ .text.fprintf  0x00000000       0x24 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fprintf.o)
+ .debug_frame   0x00000000       0x64 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fprintf.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fprintf.o)
  .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
  .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
  .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
@@ -566,6 +696,433 @@ Discarded input sections
  .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
  .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
  .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sfputc_r
+                0x00000000       0x2e c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sfputs_r
+                0x00000000       0x24 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sprint_r
+                0x00000000       0x1a c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+ .rodata._vfprintf_r.str1.1
+                0x00000000       0x11 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+ .text._vfprintf_r
+                0x00000000      0x260 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+ .text.vfprintf
+                0x00000000       0x14 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+ .debug_frame   0x00000000       0xac c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .text._printf_common
+                0x00000000       0xda c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .rodata._printf_i.str1.1
+                0x00000000       0x22 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .text._printf_i
+                0x00000000      0x24c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x00000000       0x60 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
+ .text.__swbuf_r
+                0x00000000       0xa4 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
+ .text.__swbuf  0x00000000       0x10 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
+ .debug_frame   0x00000000       0x40 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wsetup.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wsetup.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wsetup.o)
+ .text.__swsetup_r
+                0x00000000       0xdc c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wsetup.o)
+ .debug_frame   0x00000000       0x2c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wsetup.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wsetup.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-abort.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-abort.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-abort.o)
+ .text.abort    0x00000000        0xe c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-abort.o)
+ .debug_frame   0x00000000       0x28 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-abort.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-abort.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+ .text.__sflush_r
+                0x00000000      0x10c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+ .text._fflush_r
+                0x00000000       0x78 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+ .text.fflush   0x00000000       0x24 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+ .debug_frame   0x00000000       0x5c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+ .text.std      0x00000000       0x48 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+ .text._cleanup_r
+                0x00000000        0xc c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+ .text.__fp_lock
+                0x00000000       0x18 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+ .text.__fp_unlock
+                0x00000000       0x18 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+ .text.__sfmoreglue
+                0x00000000       0x2c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+ .text._cleanup
+                0x00000000        0xc c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+ .text.__sfp_lock_acquire
+                0x00000000        0xc c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+ .text.__sfp_lock_release
+                0x00000000        0xc c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+ .text.__sinit_lock_acquire
+                0x00000000        0xc c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+ .text.__sinit_lock_release
+                0x00000000        0xc c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+ .text.__sinit  0x00000000       0x70 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+ .text.__sfp    0x00000000       0x8c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+ .text.__fp_lock_all
+                0x00000000       0x1c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+ .text.__fp_unlock_all
+                0x00000000       0x1c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+ .rodata.__sf_fake_stderr
+                0x00000000       0x20 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+ .rodata.__sf_fake_stdin
+                0x00000000       0x20 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+ .rodata.__sf_fake_stdout
+                0x00000000       0x20 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+ .debug_frame   0x00000000      0x14c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fvwrite.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fvwrite.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fvwrite.o)
+ .text.__sfvwrite_r
+                0x00000000      0x294 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fvwrite.o)
+ .debug_frame   0x00000000       0x3c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fvwrite.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fvwrite.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fwalk.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fwalk.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fwalk.o)
+ .text._fwalk   0x00000000       0x3a c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fwalk.o)
+ .text._fwalk_reent
+                0x00000000       0x3e c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fwalk.o)
+ .debug_frame   0x00000000       0x54 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fwalk.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fwalk.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_init
+                0x00000000        0x2 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x00000000        0x2 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_close
+                0x00000000        0x2 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x00000000        0x2 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x00000000        0x2 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire_recursive
+                0x00000000        0x2 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x00000000        0x4 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x00000000        0x4 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_release
+                0x00000000        0x2 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_release_recursive
+                0x00000000        0x2 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .bss.__lock___arc4random_mutex
+                0x00000000        0x1 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .bss.__lock___at_quick_exit_mutex
+                0x00000000        0x1 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .bss.__lock___atexit_recursive_mutex
+                0x00000000        0x1 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .bss.__lock___dd_hash_mutex
+                0x00000000        0x1 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .bss.__lock___env_recursive_mutex
+                0x00000000        0x1 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .bss.__lock___malloc_recursive_mutex
+                0x00000000        0x1 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .bss.__lock___sfp_recursive_mutex
+                0x00000000        0x1 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .bss.__lock___sinit_recursive_mutex
+                0x00000000        0x1 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .bss.__lock___tz_mutex
+                0x00000000        0x1 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .debug_frame   0x00000000       0xb0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-makebuf.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-makebuf.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-makebuf.o)
+ .text.__swhatbuf_r
+                0x00000000       0x4a c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-makebuf.o)
+ .text.__smakebuf_r
+                0x00000000       0x80 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-makebuf.o)
+ .debug_frame   0x00000000       0x58 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-makebuf.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-makebuf.o)
+ .text          0x00000000       0xa0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memchr.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memchr.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memchr.o)
+ .ARM.attributes
+                0x00000000       0x1c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memchr.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .text.memcpy   0x00000000       0x1c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00000000       0x28 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memmove.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memmove.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memmove.o)
+ .text.memmove  0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memmove.o)
+ .debug_frame   0x00000000       0x28 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memmove.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
+ .text._free_r  0x00000000       0x98 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x00000000       0x38 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+ .text.sbrk_aligned
+                0x00000000       0x40 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+ .text._malloc_r
+                0x00000000       0xe8 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+ .bss.__malloc_free_list
+                0x00000000        0x4 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+ .bss.__malloc_sbrk_start
+                0x00000000        0x4 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00000000       0x4c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
+ .text._realloc_r
+                0x00000000       0x5e c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x00000000       0x3c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
+ .text._sbrk_r  0x00000000       0x20 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000000       0x2c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+ .text._init_signal_r
+                0x00000000       0x28 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+ .text._signal_r
+                0x00000000       0x30 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+ .text._raise_r
+                0x00000000       0x50 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+ .text.__sigtramp_r
+                0x00000000       0x48 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+ .text.raise    0x00000000       0x10 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+ .text.signal   0x00000000       0x10 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+ .text._init_signal
+                0x00000000        0xc c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+ .text.__sigtramp
+                0x00000000       0x10 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+ .debug_frame   0x00000000       0xcc c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signalr.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signalr.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signalr.o)
+ .text._kill_r  0x00000000       0x24 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signalr.o)
+ .text._getpid_r
+                0x00000000        0x4 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signalr.o)
+ .debug_frame   0x00000000       0x3c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signalr.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signalr.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
+ .text.__sread  0x00000000       0x22 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
+ .text.__seofread
+                0x00000000        0x4 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
+ .text.__swrite
+                0x00000000       0x38 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
+ .text.__sseek  0x00000000       0x24 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
+ .text.__sclose
+                0x00000000        0x8 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
+ .debug_frame   0x00000000       0x88 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-writer.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-writer.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-writer.o)
+ .text._write_r
+                0x00000000       0x24 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-writer.o)
+ .debug_frame   0x00000000       0x2c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-writer.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-writer.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-closer.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-closer.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-closer.o)
+ .text._close_r
+                0x00000000       0x20 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-closer.o)
+ .debug_frame   0x00000000       0x2c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-closer.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-closer.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fstatr.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fstatr.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fstatr.o)
+ .text._fstat_r
+                0x00000000       0x24 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fstatr.o)
+ .debug_frame   0x00000000       0x2c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fstatr.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fstatr.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-isattyr.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-isattyr.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-isattyr.o)
+ .text._isatty_r
+                0x00000000       0x20 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-isattyr.o)
+ .debug_frame   0x00000000       0x2c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-isattyr.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-isattyr.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lseekr.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lseekr.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lseekr.o)
+ .text._lseek_r
+                0x00000000       0x24 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lseekr.o)
+ .debug_frame   0x00000000       0x2c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lseekr.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lseekr.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
+ .text.__malloc_lock
+                0x00000000        0xc c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
+ .text.__malloc_unlock
+                0x00000000        0xc c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
+ .debug_frame   0x00000000       0x30 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-msizer.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-msizer.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-msizer.o)
+ .text._malloc_usable_size_r
+                0x00000000       0x10 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x00000000       0x20 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-msizer.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-msizer.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-readr.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-readr.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-readr.o)
+ .text._read_r  0x00000000       0x24 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-readr.o)
+ .debug_frame   0x00000000       0x2c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-readr.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-readr.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x00000000       0x1a c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0xb8 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
+ .bss.errno     0x00000000        0x4 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
+ .debug_frame   0x00000000       0x5c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(close.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(close.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(close.o)
+ .stab          0x00000000       0x24 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(close.o)
+ .text._close   0x00000000       0x10 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(close.o)
+ .debug_frame   0x00000000       0x20 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(close.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(close.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(fstat.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(fstat.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(fstat.o)
+ .stab          0x00000000       0x18 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(fstat.o)
+                                 0x24 (size before relaxing)
+ .text._fstat   0x00000000       0x10 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(fstat.o)
+ .debug_frame   0x00000000       0x20 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(fstat.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(fstat.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(getpid.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(getpid.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(getpid.o)
+ .stab          0x00000000       0x18 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(getpid.o)
+                                 0x24 (size before relaxing)
+ .text._getpid  0x00000000       0x10 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(getpid.o)
+ .debug_frame   0x00000000       0x20 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(getpid.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(getpid.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(isatty.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(isatty.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(isatty.o)
+ .stab          0x00000000       0x18 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(isatty.o)
+                                 0x24 (size before relaxing)
+ .text._isatty  0x00000000       0x10 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(isatty.o)
+ .debug_frame   0x00000000       0x20 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(isatty.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(isatty.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(kill.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(kill.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(kill.o)
+ .stab          0x00000000       0x18 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(kill.o)
+                                 0x24 (size before relaxing)
+ .text._kill    0x00000000       0x10 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(kill.o)
+ .debug_frame   0x00000000       0x20 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(kill.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(kill.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
+ .stab          0x00000000       0x18 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
+                                 0x24 (size before relaxing)
+ .text._lseek   0x00000000       0x10 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
+ .debug_frame   0x00000000       0x20 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(read.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(read.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(read.o)
+ .stab          0x00000000       0x18 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(read.o)
+                                 0x24 (size before relaxing)
+ .text._read    0x00000000       0x10 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(read.o)
+ .debug_frame   0x00000000       0x20 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(read.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(read.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
+ .text._sbrk    0x00000000       0x1c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
+ .bss.heap_end.0
+                0x00000000        0x4 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
+ .debug_frame   0x00000000       0x20 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
+ .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(write.o)
+ .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(write.o)
+ .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(write.o)
+ .stab          0x00000000       0x18 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(write.o)
+                                 0x24 (size before relaxing)
+ .text._write   0x00000000       0x10 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(write.o)
+ .debug_frame   0x00000000       0x20 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(write.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(write.o)
  .text          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
  .data          0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
  .bss           0x00000000        0x0 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
@@ -945,7 +1502,7 @@ LOAD c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc
                 0x2000002c      0x604
                 0x20000030                . = ALIGN (0x8)
  *fill*         0x2000002c        0x4 
-                [!provide]                PROVIDE (end = .)
+                0x20000030                PROVIDE (end = .)
                 [!provide]                PROVIDE (_end = .)
                 0x20000230                . = (. + _Min_Heap_Size)
  *fill*         0x20000030      0x200 
@@ -1119,6 +1676,9 @@ LOAD c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc
  .debug_frame   0x0000064c       0x20 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
  .debug_frame   0x0000066c       0x2c c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
  .debug_frame   0x00000698       0x34 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+
+.stabstr        0x00000000      0x1b9
+ .stabstr       0x00000000      0x1b9 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(close.o)
 
 Cross Reference Table
 
@@ -1362,6 +1922,7 @@ SystemCoreClock                                   build/system_stm32f4xx.o
                                                   build/stm32f4xx_hal_rcc.o
                                                   build/stm32f4xx_hal_dma.o
                                                   build/stm32f4xx_hal.o
+                                                  build/uart.o
 SystemCoreClockUpdate                             build/system_stm32f4xx.o
 SystemInit                                        build/system_stm32f4xx.o
                                                   build/startup_stm32f417xx.o
@@ -1393,59 +1954,291 @@ __aeabi_ldiv0                                     c:/dev/embedded/arm_toolchain/
                                                   c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
 __aeabi_uldivmod                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
                                                   build/stm32f4xx_hal_rcc.o
+__assert                                          c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-assert.o)
+__assert_func                                     c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-assert.o)
+                                                  build/uart.o
 __bss_end__                                       c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
 __bss_start__                                     c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
 __call_exitprocs                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
 __deregister_frame_info                           c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 __dso_handle                                      c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+__fp_lock_all                                     c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+__fp_unlock_all                                   c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
 __init_array_end                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
 __init_array_start                                c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
 __libc_fini_array                                 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
 __libc_init_array                                 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
                                                   build/startup_stm32f417xx.o
                                                   c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+__lock___arc4random_mutex                         c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+__lock___at_quick_exit_mutex                      c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+__lock___atexit_recursive_mutex                   c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+__lock___dd_hash_mutex                            c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+__lock___env_recursive_mutex                      c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+__lock___malloc_recursive_mutex                   c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
+__lock___sfp_recursive_mutex                      c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+__lock___sinit_recursive_mutex                    c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+__lock___tz_mutex                                 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+__malloc_free_list                                c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
+__malloc_lock                                     c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
+__malloc_sbrk_start                               c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+__malloc_unlock                                   c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
 __preinit_array_end                               c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
 __preinit_array_start                             c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
 __register_frame_info                             c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-__sf_fake_stderr                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
-__sf_fake_stdin                                   c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
-__sf_fake_stdout                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+__retarget_lock_acquire                           c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+__retarget_lock_acquire_recursive                 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+__retarget_lock_close                             c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+__retarget_lock_close_recursive                   c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+__retarget_lock_init                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+__retarget_lock_init_recursive                    c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+__retarget_lock_release                           c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+__retarget_lock_release_recursive                 c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+__retarget_lock_try_acquire                       c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+__retarget_lock_try_acquire_recursive             c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+__sclose                                          c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+__seofread                                        c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
+__sf_fake_stderr                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wsetup.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+__sf_fake_stdin                                   c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wsetup.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+__sf_fake_stdout                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wsetup.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+__sflush_r                                        c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+__sfmoreglue                                      c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+__sfp                                             c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+__sfp_lock_acquire                                c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+__sfp_lock_release                                c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+__sfputs_r                                        c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+__sfvwrite_r                                      c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fvwrite.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+__sigtramp                                        c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+__sigtramp_r                                      c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+__sinit                                           c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wsetup.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+__sinit_lock_acquire                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+__sinit_lock_release                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+__smakebuf_r                                      c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-makebuf.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wsetup.o)
+__sprint_r                                        c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+__sread                                           c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+__sseek                                           c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
 __stack                                           c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+__swbuf                                           c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
+__swbuf_r                                         c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+__swhatbuf_r                                      c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-makebuf.o)
+__swrite                                          c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+__swsetup_r                                       c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wsetup.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fvwrite.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
 __udivmoddi4                                      c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
                                                   c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
+_cleanup                                          c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+_cleanup_r                                        c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-makebuf.o)
+_close                                            c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(close.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-closer.o)
+_close_r                                          c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-closer.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
 _ebss                                             build/startup_stm32f417xx.o
 _edata                                            build/startup_stm32f417xx.o
 _estack                                           build/startup_stm32f417xx.o
 _exit                                             c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-abort.o)
                                                   c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
+_fflush_r                                         c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fvwrite.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
 _fini                                             c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+_fiprintf_r                                       c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fprintf.o)
+_fprintf_r                                        c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fprintf.o)
+_free_r                                           c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fvwrite.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wsetup.o)
+_fstat                                            c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(fstat.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fstatr.o)
+_fstat_r                                          c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fstatr.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-makebuf.o)
+_fwalk                                            c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fwalk.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+_fwalk_reent                                      c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fwalk.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+_getpid                                           c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(getpid.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signalr.o)
+_getpid_r                                         c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signalr.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
 _global_impure_ptr                                c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
                                                   c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
 _impure_ptr                                       c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wsetup.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fprintf.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-assert.o)
 _init                                             c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
                                                   c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+_init_signal                                      c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+_init_signal_r                                    c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+_isatty                                           c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(isatty.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-isattyr.o)
+_isatty_r                                         c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-isattyr.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-makebuf.o)
+_kill                                             c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(kill.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signalr.o)
+_kill_r                                           c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signalr.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+_lseek                                            c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lseekr.o)
+_lseek_r                                          c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lseekr.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
 _mainCRTStartup                                   c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+_malloc_r                                         c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-makebuf.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fvwrite.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+_malloc_usable_size_r                             c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-msizer.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
+_printf_common                                    c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+_printf_float                                     c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+_printf_i                                         c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+_raise_r                                          c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+_read                                             c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(read.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-readr.o)
+_read_r                                           c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-readr.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
+_realloc_r                                        c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fvwrite.o)
+_reclaim_reent                                    c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
+_sbrk                                             c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
+_sbrk_r                                           c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
 _sbss                                             build/startup_stm32f417xx.o
 _sdata                                            build/startup_stm32f417xx.o
 _sidata                                           build/startup_stm32f417xx.o
+_signal_r                                         c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
 _stack_init                                       c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
 _start                                            c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+_vfiprintf_r                                      c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+_vfprintf_r                                       c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fprintf.o)
+_write                                            c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(write.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-writer.o)
+_write_r                                          c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-writer.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
+abort                                             c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-abort.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-assert.o)
 atexit                                            c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+cleanup_glue                                      c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
+end                                               c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
+errno                                             c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(write.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(read.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(kill.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(isatty.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(getpid.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(fstat.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(close.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-readr.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lseekr.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-isattyr.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fstatr.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-closer.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-writer.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signalr.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
 exit                                              c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
                                                   c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+fflush                                            c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+fiprintf                                          c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fprintf.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-assert.o)
+fprintf                                           c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fprintf.o)
 g_pfnVectors                                      build/startup_stm32f417xx.o
 hardware_init_hook                                c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
 main                                              build/main.o
                                                   build/startup_stm32f417xx.o
                                                   c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+memchr                                            c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memchr.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fvwrite.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+memcpy                                            c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fvwrite.o)
+memmove                                           c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memmove.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fvwrite.o)
 memset                                            c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
                                                   build/main.o
                                                   c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
 pFlash                                            build/stm32f4xx_hal_flash.o
                                                   build/stm32f4xx_hal_flash_ex.o
+raise                                             c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
+                                                  c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-abort.o)
+signal                                            c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
 software_init_hook                                c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+usart_enable_idle_line_irq                        build/uart.o
+usart_init_async                                  build/uart.o
+usart_init_dma_receive                            build/uart.o
+usart_register_irq                                build/uart.o
+usart_set_baude                                   build/uart.o
 uwTick                                            build/stm32f4xx_hal.o
 uwTickFreq                                        build/stm32f4xx_hal.o
 uwTickPrio                                        build/stm32f4xx_hal.o
                                                   build/stm32f4xx_hal_rcc_ex.o
                                                   build/stm32f4xx_hal_rcc.o
+vfiprintf                                         c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+vfprintf                                          c:/dev/embedded/arm_toolchain/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
