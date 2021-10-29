@@ -166,7 +166,7 @@ void usart_init_dma_receive(USART_TypeDef* usart, uint8_t* rxBuf, uint16_t size)
     {
         RCC->AHB1ENR |= (RCC_AHB1ENR_DMA2EN);
         __NVIC_SetPriority(DMA2_Stream2_IRQn, 0);
-        __NVIC_SetPriority(DMA2_Stream2_IRQn, 0);
+        __NVIC_EnableIRQ(DMA2_Stream2_IRQn);
         dma = DMA2_Stream2;
         break;
     }
@@ -174,7 +174,7 @@ void usart_init_dma_receive(USART_TypeDef* usart, uint8_t* rxBuf, uint16_t size)
     {
         RCC->AHB1ENR |= (RCC_AHB1ENR_DMA1EN);
         __NVIC_SetPriority(DMA1_Stream5_IRQn, 0);
-        __NVIC_SetPriority(DMA1_Stream5_IRQn, 0);
+        __NVIC_EnableIRQ(DMA1_Stream5_IRQn);
         dma = DMA1_Stream5;
         break;
     }
@@ -182,7 +182,7 @@ void usart_init_dma_receive(USART_TypeDef* usart, uint8_t* rxBuf, uint16_t size)
     {
         RCC->AHB1ENR |= (RCC_AHB1ENR_DMA1EN);
         __NVIC_SetPriority(DMA1_Stream1_IRQn, 0);
-        __NVIC_SetPriority(DMA1_Stream1_IRQn, 0);
+        __NVIC_EnableIRQ(DMA1_Stream1_IRQn);
         dma = DMA1_Stream1;
         break;
     }
@@ -190,7 +190,7 @@ void usart_init_dma_receive(USART_TypeDef* usart, uint8_t* rxBuf, uint16_t size)
     {
         RCC->AHB1ENR |= (RCC_AHB1ENR_DMA2EN);
         __NVIC_SetPriority(DMA2_Stream1_IRQn, 0);
-        __NVIC_SetPriority(DMA2_Stream1_IRQn, 0);
+        __NVIC_EnableIRQ(DMA2_Stream1_IRQn);
         dma = DMA2_Stream1;
         break;
     }
@@ -198,7 +198,7 @@ void usart_init_dma_receive(USART_TypeDef* usart, uint8_t* rxBuf, uint16_t size)
     {
         RCC->AHB1ENR |= (RCC_AHB1ENR_DMA1EN);
         __NVIC_SetPriority(DMA1_Stream2_IRQn, 0);
-        __NVIC_SetPriority(DMA1_Stream2_IRQn, 0);
+        __NVIC_EnableIRQ(DMA1_Stream2_IRQn);
         dma = DMA1_Stream2;
         break;
     }
@@ -206,7 +206,7 @@ void usart_init_dma_receive(USART_TypeDef* usart, uint8_t* rxBuf, uint16_t size)
     {
         RCC->AHB1ENR |= (RCC_AHB1ENR_DMA1EN);
         __NVIC_SetPriority(DMA1_Stream0_IRQn, 0);
-        __NVIC_SetPriority(DMA1_Stream0_IRQn, 0);
+        __NVIC_EnableIRQ(DMA1_Stream0_IRQn);
         dma = DMA1_Stream0;
         break;
     }
@@ -252,3 +252,53 @@ void usart_enable_idle_line_irq(USART_TypeDef* usart)
     usart->CR1 |= (USART_CR1_IDLEIE);   // enable idle line interrupt
 }
 
+void usart_rcv_dma_idle(USART_TypeDef* usart, uint8_t rxBuf, uint16_t size)
+{
+    assert(usart);
+    assert(rxBuf);
+
+    DMA_Stream_TypeDef* dma;
+
+    switch ((uint32_t)usart)
+    {
+    case (uint32_t)USART1:
+    {
+        dma = DMA2_Stream2;
+        break;
+    }
+    case (uint32_t)USART2:
+    {
+        dma = DMA1_Stream5;
+        break;
+    }
+    case (uint32_t)USART3:
+    {
+        dma = DMA1_Stream1;
+        break;
+    }
+    case (uint32_t)USART6:
+    {
+        dma = DMA2_Stream1;
+        break;
+    }
+    case (uint32_t)UART4:
+    {
+        dma = DMA1_Stream2;
+        break;
+    }
+    case (uint32_t)UART5:
+    {
+        dma = DMA1_Stream0;
+        break;
+    }
+    default:
+        assert(0);
+    }
+
+    dma->CR &= ~(DMA_SxCR_EN);  // disable DMA
+    dma->M0AR = (uint32_t)rxBuf;
+    dma->PAR = (uint32_t)&usart->DR;
+    dma->NDTR = size;
+
+    dma->CR |= (DMA_SxCR_EN);   // enable DMA
+}

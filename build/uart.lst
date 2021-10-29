@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
   13:Core/Src/uart.c **** 
   14:Core/Src/uart.c ****  /* Simple USART initialisation */
   15:Core/Src/uart.c **** void usart_init_async(USART_TypeDef* usart)
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 2
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 2
 
 
   16:Core/Src/uart.c **** {
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
   46:Core/Src/uart.c ****     {
   47:Core/Src/uart.c ****         RCC->APB1ENR |= (RCC_APB1ENR_USART3EN); // enable USART peripheral
   48:Core/Src/uart.c ****         RCC->AHB1ENR |= (RCC_AHB1ENR_GPIOBEN);  // enable GPIO peripheral
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 3
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 3
 
 
   49:Core/Src/uart.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
   90 004e 1162     		str	r1, [r2, #32]
   77:Core/Src/uart.c ****         GPIOA->AFR[0] |= (8 << 4);  // PA1 (RX) alternate function: AF8 (UART4_RX)
   91              		.loc 1 77 9 is_stmt 1 view .LVU14
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 4
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 4
 
 
   92              		.loc 1 77 23 is_stmt 0 view .LVU15
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  134 0094 1160     		str	r1, [r2]
   40:Core/Src/uart.c ****         GPIOA->AFR[0] |= (7 << 12);  // PA3 (RX) alternate function: AF7 (USART2_RX)
  135              		.loc 1 40 9 is_stmt 1 view .LVU28
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 5
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 5
 
 
   40:Core/Src/uart.c ****         GPIOA->AFR[0] |= (7 << 12);  // PA3 (RX) alternate function: AF7 (USART2_RX)
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
   64:Core/Src/uart.c ****         GPIOC->AFR[0] |= (7 << 28); // PC7 (RX) alternate function: AF7 (USART6_RX)
  177              		.loc 1 64 9 is_stmt 1 view .LVU42
   64:Core/Src/uart.c ****         GPIOC->AFR[0] |= (7 << 28); // PC7 (RX) alternate function: AF7 (USART6_RX)
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 6
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 6
 
 
  178              		.loc 1 64 23 is_stmt 0 view .LVU43
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
   29:Core/Src/uart.c ****         break;
  218              		.loc 1 29 23 is_stmt 0 view .LVU58
  219 011c 516A     		ldr	r1, [r2, #36]
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 7
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 7
 
 
  220 011e 41F4E061 		orr	r1, r1, #1792
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  248 0142 1164     		str	r1, [r2, #64]
   48:Core/Src/uart.c **** 
  249              		.loc 1 48 9 is_stmt 1 view .LVU69
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 8
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 8
 
 
   48:Core/Src/uart.c **** 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  289              		.loc 1 85 9 is_stmt 1 view .LVU84
   85:Core/Src/uart.c **** 
  290              		.loc 1 85 22 is_stmt 0 view .LVU85
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 9
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 9
 
 
  291 0184 116B     		ldr	r1, [r2, #48]
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  333              	.L15:
  334 01c0 00500040 		.word	1073762304
  335 01c4 00380240 		.word	1073887232
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 10
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 10
 
 
  336 01c8 00000000 		.word	.LC0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  385 0018 42D0     		beq	.L19
  386 001a 22D8     		bhi	.L20
  387 001c A1F50061 		sub	r1, r1, #2048
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 11
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 11
 
 
  388 0020 8A42     		cmp	r2, r1
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
   22:Drivers/CMSIS/Include/core_cm4.h ****  * limitations under the License.
   23:Drivers/CMSIS/Include/core_cm4.h ****  */
   24:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 12
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 12
 
 
   25:Drivers/CMSIS/Include/core_cm4.h **** #if   defined ( __ICCARM__ )
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
   79:Drivers/CMSIS/Include/core_cm4.h ****       #define __FPU_USED       1U
   80:Drivers/CMSIS/Include/core_cm4.h ****     #else
   81:Drivers/CMSIS/Include/core_cm4.h ****       #error "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 13
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 13
 
 
   82:Drivers/CMSIS/Include/core_cm4.h ****       #define __FPU_USED       0U
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  136:Drivers/CMSIS/Include/core_cm4.h **** #elif defined ( __TASKING__ )
  137:Drivers/CMSIS/Include/core_cm4.h ****   #if defined __FPU_VFP__
  138:Drivers/CMSIS/Include/core_cm4.h ****     #if defined (__FPU_PRESENT) && (__FPU_PRESENT == 1U)
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 14
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 14
 
 
  139:Drivers/CMSIS/Include/core_cm4.h ****       #define __FPU_USED       1U
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  193:Drivers/CMSIS/Include/core_cm4.h ****     #define __MPU_PRESENT             0U
  194:Drivers/CMSIS/Include/core_cm4.h ****     #warning "__MPU_PRESENT not defined in device header file; using default!"
  195:Drivers/CMSIS/Include/core_cm4.h ****   #endif
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 15
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 15
 
 
  196:Drivers/CMSIS/Include/core_cm4.h **** 
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  250:Drivers/CMSIS/Include/core_cm4.h ****   \ingroup    CMSIS_core_register
  251:Drivers/CMSIS/Include/core_cm4.h ****   \defgroup   CMSIS_CORE  Status and Control Registers
  252:Drivers/CMSIS/Include/core_cm4.h ****   \brief      Core Register type definitions.
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 16
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 16
 
 
  253:Drivers/CMSIS/Include/core_cm4.h ****   @{
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  307:Drivers/CMSIS/Include/core_cm4.h **** 
  308:Drivers/CMSIS/Include/core_cm4.h **** /* IPSR Register Definitions */
  309:Drivers/CMSIS/Include/core_cm4.h **** #define IPSR_ISR_Pos                        0U                                            /*!< IPSR
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 17
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 17
 
 
  310:Drivers/CMSIS/Include/core_cm4.h **** #define IPSR_ISR_Msk                       (0x1FFUL /*<< IPSR_ISR_Pos*/)                  /*!< IPSR
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  364:Drivers/CMSIS/Include/core_cm4.h **** #define xPSR_ISR_Pos                        0U                                            /*!< xPSR
  365:Drivers/CMSIS/Include/core_cm4.h **** #define xPSR_ISR_Msk                       (0x1FFUL /*<< xPSR_ISR_Pos*/)                  /*!< xPSR
  366:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 18
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 18
 
 
  367:Drivers/CMSIS/Include/core_cm4.h **** 
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  421:Drivers/CMSIS/Include/core_cm4.h **** }  NVIC_Type;
  422:Drivers/CMSIS/Include/core_cm4.h **** 
  423:Drivers/CMSIS/Include/core_cm4.h **** /* Software Triggered Interrupt Register Definitions */
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 19
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 19
 
 
  424:Drivers/CMSIS/Include/core_cm4.h **** #define NVIC_STIR_INTID_Pos                 0U                                         /*!< STIR: I
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  478:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_CPUID_REVISION_Pos              0U                                            /*!< SCB 
  479:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_CPUID_REVISION_Msk             (0xFUL /*<< SCB_CPUID_REVISION_Pos*/)          /*!< SCB 
  480:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 20
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 20
 
 
  481:Drivers/CMSIS/Include/core_cm4.h **** /* SCB Interrupt Control State Register Definitions */
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  535:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_AIRCR_VECTRESET_Pos             0U                                            /*!< SCB 
  536:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_AIRCR_VECTRESET_Msk            (1UL /*<< SCB_AIRCR_VECTRESET_Pos*/)           /*!< SCB 
  537:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 21
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 21
 
 
  538:Drivers/CMSIS/Include/core_cm4.h **** /* SCB System Control Register Definitions */
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  592:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_SHCSR_PENDSVACT_Pos            10U                                            /*!< SCB 
  593:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_SHCSR_PENDSVACT_Msk            (1UL << SCB_SHCSR_PENDSVACT_Pos)               /*!< SCB 
  594:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 22
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 22
 
 
  595:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_SHCSR_MONITORACT_Pos            8U                                            /*!< SCB 
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  649:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_CFSR_UNSTKERR_Pos             (SCB_CFSR_BUSFAULTSR_Pos + 3U)                  /*!< SCB 
  650:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_CFSR_UNSTKERR_Msk             (1UL << SCB_CFSR_UNSTKERR_Pos)                  /*!< SCB 
  651:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 23
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 23
 
 
  652:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_CFSR_IMPRECISERR_Pos          (SCB_CFSR_BUSFAULTSR_Pos + 2U)                  /*!< SCB 
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  706:Drivers/CMSIS/Include/core_cm4.h **** /*@} end of group CMSIS_SCB */
  707:Drivers/CMSIS/Include/core_cm4.h **** 
  708:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 24
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 24
 
 
  709:Drivers/CMSIS/Include/core_cm4.h **** /**
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  763:Drivers/CMSIS/Include/core_cm4.h ****   __IOM uint32_t VAL;                    /*!< Offset: 0x008 (R/W)  SysTick Current Value Register *
  764:Drivers/CMSIS/Include/core_cm4.h ****   __IM  uint32_t CALIB;                  /*!< Offset: 0x00C (R/ )  SysTick Calibration Register */
  765:Drivers/CMSIS/Include/core_cm4.h **** } SysTick_Type;
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 25
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 25
 
 
  766:Drivers/CMSIS/Include/core_cm4.h **** 
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  820:Drivers/CMSIS/Include/core_cm4.h ****   __IOM uint32_t TER;                    /*!< Offset: 0xE00 (R/W)  ITM Trace Enable Register */
  821:Drivers/CMSIS/Include/core_cm4.h ****         uint32_t RESERVED1[15U];
  822:Drivers/CMSIS/Include/core_cm4.h ****   __IOM uint32_t TPR;                    /*!< Offset: 0xE40 (R/W)  ITM Trace Privilege Register */
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 26
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 26
 
 
  823:Drivers/CMSIS/Include/core_cm4.h ****         uint32_t RESERVED2[15U];
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  877:Drivers/CMSIS/Include/core_cm4.h **** #define ITM_TCR_ITMENA_Msk                 (1UL /*<< ITM_TCR_ITMENA_Pos*/)                /*!< ITM 
  878:Drivers/CMSIS/Include/core_cm4.h **** 
  879:Drivers/CMSIS/Include/core_cm4.h **** /* ITM Integration Write Register Definitions */
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 27
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 27
 
 
  880:Drivers/CMSIS/Include/core_cm4.h **** #define ITM_IWR_ATVALIDM_Pos                0U                                            /*!< ITM 
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  934:Drivers/CMSIS/Include/core_cm4.h ****   __IOM uint32_t FUNCTION2;              /*!< Offset: 0x048 (R/W)  Function Register 2 */
  935:Drivers/CMSIS/Include/core_cm4.h ****         uint32_t RESERVED2[1U];
  936:Drivers/CMSIS/Include/core_cm4.h ****   __IOM uint32_t COMP3;                  /*!< Offset: 0x050 (R/W)  Comparator Register 3 */
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 28
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 28
 
 
  937:Drivers/CMSIS/Include/core_cm4.h ****   __IOM uint32_t MASK3;                  /*!< Offset: 0x054 (R/W)  Mask Register 3 */
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  991:Drivers/CMSIS/Include/core_cm4.h **** #define DWT_CTRL_POSTPRESET_Msk            (0xFUL << DWT_CTRL_POSTPRESET_Pos)          /*!< DWT CTR
  992:Drivers/CMSIS/Include/core_cm4.h **** 
  993:Drivers/CMSIS/Include/core_cm4.h **** #define DWT_CTRL_CYCCNTENA_Pos              0U                                         /*!< DWT CTR
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 29
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 29
 
 
  994:Drivers/CMSIS/Include/core_cm4.h **** #define DWT_CTRL_CYCCNTENA_Msk             (0x1UL /*<< DWT_CTRL_CYCCNTENA_Pos*/)       /*!< DWT CTR
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
 1048:Drivers/CMSIS/Include/core_cm4.h **** /*@}*/ /* end of group CMSIS_DWT */
 1049:Drivers/CMSIS/Include/core_cm4.h **** 
 1050:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 30
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 30
 
 
 1051:Drivers/CMSIS/Include/core_cm4.h **** /**
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
 1105:Drivers/CMSIS/Include/core_cm4.h **** #define TPI_FFSR_FtStopped_Msk             (0x1UL << TPI_FFSR_FtStopped_Pos)           /*!< TPI FFS
 1106:Drivers/CMSIS/Include/core_cm4.h **** 
 1107:Drivers/CMSIS/Include/core_cm4.h **** #define TPI_FFSR_FlInProg_Pos               0U                                         /*!< TPI FFS
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 31
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 31
 
 
 1108:Drivers/CMSIS/Include/core_cm4.h **** #define TPI_FFSR_FlInProg_Msk              (0x1UL /*<< TPI_FFSR_FlInProg_Pos*/)        /*!< TPI FFS
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
 1162:Drivers/CMSIS/Include/core_cm4.h **** 
 1163:Drivers/CMSIS/Include/core_cm4.h **** #define TPI_FIFO1_ITM2_Pos                 16U                                         /*!< TPI FIF
 1164:Drivers/CMSIS/Include/core_cm4.h **** #define TPI_FIFO1_ITM2_Msk                 (0xFFUL << TPI_FIFO1_ITM2_Pos)              /*!< TPI FIF
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 32
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 32
 
 
 1165:Drivers/CMSIS/Include/core_cm4.h **** 
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
 1219:Drivers/CMSIS/Include/core_cm4.h **** 
 1220:Drivers/CMSIS/Include/core_cm4.h **** /**
 1221:Drivers/CMSIS/Include/core_cm4.h ****   \brief  Structure type to access the Memory Protection Unit (MPU).
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 33
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 33
 
 
 1222:Drivers/CMSIS/Include/core_cm4.h ****  */
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
 1276:Drivers/CMSIS/Include/core_cm4.h **** #define MPU_RASR_ATTRS_Msk                 (0xFFFFUL << MPU_RASR_ATTRS_Pos)               /*!< MPU 
 1277:Drivers/CMSIS/Include/core_cm4.h **** 
 1278:Drivers/CMSIS/Include/core_cm4.h **** #define MPU_RASR_XN_Pos                    28U                                            /*!< MPU 
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 34
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 34
 
 
 1279:Drivers/CMSIS/Include/core_cm4.h **** #define MPU_RASR_XN_Msk                    (1UL << MPU_RASR_XN_Pos)                       /*!< MPU 
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
 1333:Drivers/CMSIS/Include/core_cm4.h **** #define FPU_FPCCR_LSPEN_Pos                30U                                            /*!< FPCC
 1334:Drivers/CMSIS/Include/core_cm4.h **** #define FPU_FPCCR_LSPEN_Msk                (1UL << FPU_FPCCR_LSPEN_Pos)                   /*!< FPCC
 1335:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 35
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 35
 
 
 1336:Drivers/CMSIS/Include/core_cm4.h **** #define FPU_FPCCR_MONRDY_Pos                8U                                            /*!< FPCC
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
 1390:Drivers/CMSIS/Include/core_cm4.h **** #define FPU_MVFR0_Double_precision_Pos      8U                                            /*!< MVFR
 1391:Drivers/CMSIS/Include/core_cm4.h **** #define FPU_MVFR0_Double_precision_Msk     (0xFUL << FPU_MVFR0_Double_precision_Pos)      /*!< MVFR
 1392:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 36
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 36
 
 
 1393:Drivers/CMSIS/Include/core_cm4.h **** #define FPU_MVFR0_Single_precision_Pos      4U                                            /*!< MVFR
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
 1447:Drivers/CMSIS/Include/core_cm4.h **** #define CoreDebug_DHCSR_S_SLEEP_Msk        (1UL << CoreDebug_DHCSR_S_SLEEP_Pos)           /*!< Core
 1448:Drivers/CMSIS/Include/core_cm4.h **** 
 1449:Drivers/CMSIS/Include/core_cm4.h **** #define CoreDebug_DHCSR_S_HALT_Pos         17U                                            /*!< Core
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 37
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 37
 
 
 1450:Drivers/CMSIS/Include/core_cm4.h **** #define CoreDebug_DHCSR_S_HALT_Msk         (1UL << CoreDebug_DHCSR_S_HALT_Pos)            /*!< Core
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
 1504:Drivers/CMSIS/Include/core_cm4.h **** 
 1505:Drivers/CMSIS/Include/core_cm4.h **** #define CoreDebug_DEMCR_VC_CHKERR_Pos       6U                                            /*!< Core
 1506:Drivers/CMSIS/Include/core_cm4.h **** #define CoreDebug_DEMCR_VC_CHKERR_Msk      (1UL << CoreDebug_DEMCR_VC_CHKERR_Pos)         /*!< Core
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 38
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 38
 
 
 1507:Drivers/CMSIS/Include/core_cm4.h **** 
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
 1561:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_BASE            (SCS_BASE +  0x0D00UL)                    /*!< System Control Block Bas
 1562:Drivers/CMSIS/Include/core_cm4.h **** 
 1563:Drivers/CMSIS/Include/core_cm4.h **** #define SCnSCB              ((SCnSCB_Type    *)     SCS_BASE      )   /*!< System control Register 
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 39
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 39
 
 
 1564:Drivers/CMSIS/Include/core_cm4.h **** #define SCB                 ((SCB_Type       *)     SCB_BASE      )   /*!< SCB configuration struct
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
 1618:Drivers/CMSIS/Include/core_cm4.h ****   #define NVIC_SetPendingIRQ          __NVIC_SetPendingIRQ
 1619:Drivers/CMSIS/Include/core_cm4.h ****   #define NVIC_ClearPendingIRQ        __NVIC_ClearPendingIRQ
 1620:Drivers/CMSIS/Include/core_cm4.h ****   #define NVIC_GetActive              __NVIC_GetActive
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 40
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 40
 
 
 1621:Drivers/CMSIS/Include/core_cm4.h ****   #define NVIC_SetPriority            __NVIC_SetPriority
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
 1675:Drivers/CMSIS/Include/core_cm4.h ****  */
 1676:Drivers/CMSIS/Include/core_cm4.h **** __STATIC_INLINE uint32_t __NVIC_GetPriorityGrouping(void)
 1677:Drivers/CMSIS/Include/core_cm4.h **** {
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 41
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 41
 
 
 1678:Drivers/CMSIS/Include/core_cm4.h ****   return ((uint32_t)((SCB->AIRCR & SCB_AIRCR_PRIGROUP_Msk) >> SCB_AIRCR_PRIGROUP_Pos));
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
 1732:Drivers/CMSIS/Include/core_cm4.h **** }
 1733:Drivers/CMSIS/Include/core_cm4.h **** 
 1734:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 42
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 42
 
 
 1735:Drivers/CMSIS/Include/core_cm4.h **** /**
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
 1789:Drivers/CMSIS/Include/core_cm4.h ****   \param [in]      IRQn  Device specific interrupt number.
 1790:Drivers/CMSIS/Include/core_cm4.h ****   \return             0  Interrupt status is not active.
 1791:Drivers/CMSIS/Include/core_cm4.h ****   \return             1  Interrupt status is active.
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 43
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 43
 
 
 1792:Drivers/CMSIS/Include/core_cm4.h ****   \note    IRQn must not be negative.
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
 1690:Drivers/CMSIS/Include/core_cm4.h ****   {
  421              		.loc 2 1690 3 view .LVU117
 1692:Drivers/CMSIS/Include/core_cm4.h ****   }
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 44
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 44
 
 
  422              		.loc 2 1692 5 view .LVU118
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  467              		.loc 2 1820 46 view .LVU133
  468              	.LBE55:
  469              	.LBE54:
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 45
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 45
 
 
  117:Core/Src/uart.c ****         break;
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  514              	.LBE58:
  127:Core/Src/uart.c ****         break;
  515              		.loc 1 127 9 is_stmt 1 view .LVU150
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 46
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 46
 
 
  516              	.LBB60:
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  558              		.loc 2 1692 5 view .LVU168
 1692:Drivers/CMSIS/Include/core_cm4.h ****   }
  559              		.loc 2 1692 43 is_stmt 0 view .LVU169
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 47
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 47
 
 
  560 008a 2023     		movs	r3, #32
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
 1690:Drivers/CMSIS/Include/core_cm4.h ****   {
  597              		.loc 2 1690 3 view .LVU183
 1692:Drivers/CMSIS/Include/core_cm4.h ****   }
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 48
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 48
 
 
  598              		.loc 2 1692 5 view .LVU184
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
 1692:Drivers/CMSIS/Include/core_cm4.h ****   }
  642              		.loc 2 1692 43 view .LVU201
  643              	.LBE73:
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 49
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 49
 
 
  644              	.LBE72:
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  691              	.LCFI2:
  692              		.cfi_def_cfa_offset 8
  693              		.cfi_offset 3, -8
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 50
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 50
 
 
  694              		.cfi_offset 14, -4
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  741              		.loc 1 153 16 view .LVU223
  742 0054 9160     		str	r1, [r2, #8]
  154:Core/Src/uart.c ****     usart->BRR |= (fraction << 0);
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 51
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 51
 
 
  743              		.loc 1 154 5 is_stmt 1 view .LVU224
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  791              		.syntax unified
  792              		.thumb
  793              		.thumb_func
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 52
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 52
 
 
  794              		.fpu fpv4-sp-d16
@@ -3066,37 +3066,38 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  797              	.LVL62:
  798              	.LFB133:
  156:Core/Src/uart.c **** 
- 157:Core/Src/uart.c **** void usart_init_dma_receive(USART_TypeDef* usart)
+ 157:Core/Src/uart.c **** void usart_init_dma_receive(USART_TypeDef* usart, uint8_t* rxBuf, uint16_t size)
  158:Core/Src/uart.c **** {
  799              		.loc 1 158 1 is_stmt 1 view -0
  800              		.cfi_startproc
  801              		@ args = 0, pretend = 0, frame = 0
  802              		@ frame_needed = 0, uses_anonymous_args = 0
  803              		.loc 1 158 1 is_stmt 0 view .LVU235
- 804 0000 08B5     		push	{r3, lr}
+ 804 0000 10B5     		push	{r4, lr}
  805              	.LCFI3:
  806              		.cfi_def_cfa_offset 8
- 807              		.cfi_offset 3, -8
+ 807              		.cfi_offset 4, -8
  808              		.cfi_offset 14, -4
  159:Core/Src/uart.c ****     assert(usart);
  809              		.loc 1 159 5 is_stmt 1 view .LVU236
- 810 0002 C0B1     		cbz	r0, .L53
+ 810 0002 C8B1     		cbz	r0, .L53
+ 811 0004 8446     		mov	ip, r0
  160:Core/Src/uart.c **** 
  161:Core/Src/uart.c ****     DMA_Stream_TypeDef* dma;
- 811              		.loc 1 161 5 view .LVU237
+ 812              		.loc 1 161 5 view .LVU237
  162:Core/Src/uart.c **** 
  163:Core/Src/uart.c ****     switch ((uint32_t)usart)
- 812              		.loc 1 163 5 view .LVU238
- 813 0004 3F4A     		ldr	r2, .L55
- 814 0006 9042     		cmp	r0, r2
- 815 0008 68D0     		beq	.L43
- 816 000a 2BD8     		bhi	.L44
- 817 000c A2F50062 		sub	r2, r2, #2048
- 818 0010 9042     		cmp	r0, r2
- 819 0012 56D0     		beq	.L45
- 820 0014 02F58062 		add	r2, r2, #1024
- 821 0018 9042     		cmp	r0, r2
- 822 001a 12D1     		bne	.L54
+ 813              		.loc 1 163 5 view .LVU238
+ 814 0006 444B     		ldr	r3, .L55
+ 815 0008 9842     		cmp	r0, r3
+ 816 000a 71D0     		beq	.L43
+ 817 000c 2BD8     		bhi	.L44
+ 818 000e A3F50063 		sub	r3, r3, #2048
+ 819 0012 9842     		cmp	r0, r3
+ 820 0014 5FD0     		beq	.L45
+ 821 0016 03F58063 		add	r3, r3, #1024
+ 822 001a 9842     		cmp	r0, r3
+ 823 001c 12D1     		bne	.L54
  164:Core/Src/uart.c ****     {
  165:Core/Src/uart.c ****     case (uint32_t)USART1:
  166:Core/Src/uart.c ****     {
@@ -3117,10 +3118,10 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  181:Core/Src/uart.c ****     case (uint32_t)USART3:
  182:Core/Src/uart.c ****     {
  183:Core/Src/uart.c ****         RCC->AHB1ENR |= (RCC_AHB1ENR_DMA1EN);
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 53
+
+
  184:Core/Src/uart.c ****         __NVIC_SetPriority(DMA1_Stream1_IRQn, 0);
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 53
-
-
  185:Core/Src/uart.c ****         __NVIC_SetPriority(DMA1_Stream1_IRQn, 0);
  186:Core/Src/uart.c ****         dma = DMA1_Stream1;
  187:Core/Src/uart.c ****         break;
@@ -3136,257 +3137,274 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  197:Core/Src/uart.c ****     case (uint32_t)UART4:
  198:Core/Src/uart.c ****     {
  199:Core/Src/uart.c ****         RCC->AHB1ENR |= (RCC_AHB1ENR_DMA1EN);
- 823              		.loc 1 199 9 view .LVU239
- 824              		.loc 1 199 22 is_stmt 0 view .LVU240
- 825 001c 3A4A     		ldr	r2, .L55+4
- 826 001e 136B     		ldr	r3, [r2, #48]
- 827 0020 43F40013 		orr	r3, r3, #2097152
- 828 0024 1363     		str	r3, [r2, #48]
+ 824              		.loc 1 199 9 view .LVU239
+ 825              		.loc 1 199 22 is_stmt 0 view .LVU240
+ 826 001e 3F48     		ldr	r0, .L55+4
+ 827              	.LVL63:
+ 828              		.loc 1 199 22 view .LVU241
+ 829 0020 036B     		ldr	r3, [r0, #48]
+ 830 0022 43F40013 		orr	r3, r3, #2097152
+ 831 0026 0363     		str	r3, [r0, #48]
  200:Core/Src/uart.c ****         __NVIC_SetPriority(DMA1_Stream2_IRQn, 0);
- 829              		.loc 1 200 9 is_stmt 1 view .LVU241
- 830              	.LVL63:
- 831              	.LBB74:
- 832              	.LBI74:
+ 832              		.loc 1 200 9 is_stmt 1 view .LVU242
+ 833              	.LVL64:
+ 834              	.LBB74:
+ 835              	.LBI74:
 1816:Drivers/CMSIS/Include/core_cm4.h **** {
- 833              		.loc 2 1816 22 view .LVU242
- 834              	.LBB75:
+ 836              		.loc 2 1816 22 view .LVU243
+ 837              	.LBB75:
 1818:Drivers/CMSIS/Include/core_cm4.h ****   {
- 835              		.loc 2 1818 3 view .LVU243
- 836              		.loc 2 1820 5 view .LVU244
- 837              		.loc 2 1820 46 is_stmt 0 view .LVU245
- 838 0026 394B     		ldr	r3, .L55+8
- 839 0028 0022     		movs	r2, #0
- 840 002a 83F80D23 		strb	r2, [r3, #781]
- 841              	.LVL64:
- 842              		.loc 2 1820 46 view .LVU246
- 843              	.LBE75:
- 844              	.LBE74:
+ 838              		.loc 2 1818 3 view .LVU244
+ 839              		.loc 2 1820 5 view .LVU245
+ 840              		.loc 2 1820 46 is_stmt 0 view .LVU246
+ 841 0028 3D4B     		ldr	r3, .L55+8
+ 842 002a 0020     		movs	r0, #0
+ 843 002c 83F80D03 		strb	r0, [r3, #781]
+ 844              	.LVL65:
+ 845              		.loc 2 1820 46 view .LVU247
+ 846              	.LBE75:
+ 847              	.LBE74:
  201:Core/Src/uart.c ****         __NVIC_SetPriority(DMA1_Stream2_IRQn, 0);
- 845              		.loc 1 201 9 is_stmt 1 view .LVU247
- 846              	.LBB76:
- 847              	.LBI76:
+ 848              		.loc 1 201 9 is_stmt 1 view .LVU248
+ 849              	.LBB76:
+ 850              	.LBI76:
 1816:Drivers/CMSIS/Include/core_cm4.h **** {
- 848              		.loc 2 1816 22 view .LVU248
- 849              	.LBB77:
+ 851              		.loc 2 1816 22 view .LVU249
+ 852              	.LBB77:
 1818:Drivers/CMSIS/Include/core_cm4.h ****   {
- 850              		.loc 2 1818 3 view .LVU249
- 851              		.loc 2 1820 5 view .LVU250
- 852              		.loc 2 1820 46 is_stmt 0 view .LVU251
- 853 002e 83F80D23 		strb	r2, [r3, #781]
- 854              	.LVL65:
- 855              		.loc 2 1820 46 view .LVU252
- 856              	.LBE77:
- 857              	.LBE76:
+ 853              		.loc 2 1818 3 view .LVU250
+ 854              		.loc 2 1820 5 view .LVU251
+ 855              		.loc 2 1820 46 is_stmt 0 view .LVU252
+ 856 0030 83F80D03 		strb	r0, [r3, #781]
+ 857              	.LVL66:
+ 858              		.loc 2 1820 46 view .LVU253
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 54
+
+
+ 859              	.LBE77:
+ 860              	.LBE76:
  202:Core/Src/uart.c ****         dma = DMA1_Stream2;
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 54
-
-
- 858              		.loc 1 202 9 is_stmt 1 view .LVU253
+ 861              		.loc 1 202 9 is_stmt 1 view .LVU254
  203:Core/Src/uart.c ****         break;
- 859              		.loc 1 203 9 view .LVU254
+ 862              		.loc 1 203 9 view .LVU255
  202:Core/Src/uart.c ****         dma = DMA1_Stream2;
- 860              		.loc 1 202 13 is_stmt 0 view .LVU255
- 861 0032 374B     		ldr	r3, .L55+12
- 862              		.loc 1 203 9 view .LVU256
- 863 0034 36E0     		b	.L51
- 864              	.LVL66:
- 865              	.L53:
+ 863              		.loc 1 202 13 is_stmt 0 view .LVU256
+ 864 0034 3B4B     		ldr	r3, .L55+12
+ 865              		.loc 1 203 9 view .LVU257
+ 866 0036 36E0     		b	.L51
+ 867              	.LVL67:
+ 868              	.L53:
  159:Core/Src/uart.c **** 
- 866              		.loc 1 159 5 discriminator 1 view .LVU257
- 867 0036 374B     		ldr	r3, .L55+16
- 868 0038 374A     		ldr	r2, .L55+20
- 869 003a 9F21     		movs	r1, #159
- 870 003c 3748     		ldr	r0, .L55+24
- 871              	.LVL67:
+ 869              		.loc 1 159 5 discriminator 1 view .LVU258
+ 870 0038 3B4B     		ldr	r3, .L55+16
+ 871 003a 3C4A     		ldr	r2, .L55+20
+ 872              	.LVL68:
  159:Core/Src/uart.c **** 
- 872              		.loc 1 159 5 discriminator 1 view .LVU258
- 873 003e FFF7FEFF 		bl	__assert_func
- 874              	.LVL68:
- 875              	.L54:
+ 873              		.loc 1 159 5 discriminator 1 view .LVU259
+ 874 003c 9F21     		movs	r1, #159
+ 875              	.LVL69:
+ 159:Core/Src/uart.c **** 
+ 876              		.loc 1 159 5 discriminator 1 view .LVU260
+ 877 003e 3C48     		ldr	r0, .L55+24
+ 878              	.LVL70:
+ 159:Core/Src/uart.c **** 
+ 879              		.loc 1 159 5 discriminator 1 view .LVU261
+ 880 0040 FFF7FEFF 		bl	__assert_func
+ 881              	.LVL71:
+ 882              	.L54:
  163:Core/Src/uart.c ****     {
- 876              		.loc 1 163 5 view .LVU259
- 877 0042 A2F50062 		sub	r2, r2, #2048
- 878 0046 9042     		cmp	r0, r2
- 879 0048 55D1     		bne	.L48
+ 883              		.loc 1 163 5 view .LVU262
+ 884 0044 A3F50063 		sub	r3, r3, #2048
+ 885 0048 9842     		cmp	r0, r3
+ 886 004a 5ED1     		bne	.L48
  175:Core/Src/uart.c ****         __NVIC_SetPriority(DMA1_Stream5_IRQn, 0);
- 880              		.loc 1 175 9 is_stmt 1 view .LVU260
+ 887              		.loc 1 175 9 is_stmt 1 view .LVU263
  175:Core/Src/uart.c ****         __NVIC_SetPriority(DMA1_Stream5_IRQn, 0);
- 881              		.loc 1 175 22 is_stmt 0 view .LVU261
- 882 004a 2F4A     		ldr	r2, .L55+4
- 883 004c 136B     		ldr	r3, [r2, #48]
- 884 004e 43F40013 		orr	r3, r3, #2097152
- 885 0052 1363     		str	r3, [r2, #48]
+ 888              		.loc 1 175 22 is_stmt 0 view .LVU264
+ 889 004c 3348     		ldr	r0, .L55+4
+ 890              	.LVL72:
+ 175:Core/Src/uart.c ****         __NVIC_SetPriority(DMA1_Stream5_IRQn, 0);
+ 891              		.loc 1 175 22 view .LVU265
+ 892 004e 036B     		ldr	r3, [r0, #48]
+ 893 0050 43F40013 		orr	r3, r3, #2097152
+ 894 0054 0363     		str	r3, [r0, #48]
  176:Core/Src/uart.c ****         __NVIC_SetPriority(DMA1_Stream5_IRQn, 0);
- 886              		.loc 1 176 9 is_stmt 1 view .LVU262
- 887              	.LVL69:
- 888              	.LBB78:
- 889              	.LBI78:
+ 895              		.loc 1 176 9 is_stmt 1 view .LVU266
+ 896              	.LVL73:
+ 897              	.LBB78:
+ 898              	.LBI78:
 1816:Drivers/CMSIS/Include/core_cm4.h **** {
- 890              		.loc 2 1816 22 view .LVU263
- 891              	.LBB79:
+ 899              		.loc 2 1816 22 view .LVU267
+ 900              	.LBB79:
 1818:Drivers/CMSIS/Include/core_cm4.h ****   {
- 892              		.loc 2 1818 3 view .LVU264
- 893              		.loc 2 1820 5 view .LVU265
- 894              		.loc 2 1820 46 is_stmt 0 view .LVU266
- 895 0054 2D4B     		ldr	r3, .L55+8
- 896 0056 0022     		movs	r2, #0
- 897 0058 83F81023 		strb	r2, [r3, #784]
- 898              	.LVL70:
- 899              		.loc 2 1820 46 view .LVU267
- 900              	.LBE79:
- 901              	.LBE78:
+ 901              		.loc 2 1818 3 view .LVU268
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 55
+
+
+ 902              		.loc 2 1820 5 view .LVU269
+ 903              		.loc 2 1820 46 is_stmt 0 view .LVU270
+ 904 0056 324B     		ldr	r3, .L55+8
+ 905 0058 0020     		movs	r0, #0
+ 906 005a 83F81003 		strb	r0, [r3, #784]
+ 907              	.LVL74:
+ 908              		.loc 2 1820 46 view .LVU271
+ 909              	.LBE79:
+ 910              	.LBE78:
  177:Core/Src/uart.c ****         dma = DMA1_Stream5;
- 902              		.loc 1 177 9 is_stmt 1 view .LVU268
- 903              	.LBB80:
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 55
-
-
- 904              	.LBI80:
+ 911              		.loc 1 177 9 is_stmt 1 view .LVU272
+ 912              	.LBB80:
+ 913              	.LBI80:
 1816:Drivers/CMSIS/Include/core_cm4.h **** {
- 905              		.loc 2 1816 22 view .LVU269
- 906              	.LBB81:
+ 914              		.loc 2 1816 22 view .LVU273
+ 915              	.LBB81:
 1818:Drivers/CMSIS/Include/core_cm4.h ****   {
- 907              		.loc 2 1818 3 view .LVU270
- 908              		.loc 2 1820 5 view .LVU271
- 909              		.loc 2 1820 46 is_stmt 0 view .LVU272
- 910 005c 83F81023 		strb	r2, [r3, #784]
- 911              	.LVL71:
- 912              		.loc 2 1820 46 view .LVU273
- 913              	.LBE81:
- 914              	.LBE80:
+ 916              		.loc 2 1818 3 view .LVU274
+ 917              		.loc 2 1820 5 view .LVU275
+ 918              		.loc 2 1820 46 is_stmt 0 view .LVU276
+ 919 005e 83F81003 		strb	r0, [r3, #784]
+ 920              	.LVL75:
+ 921              		.loc 2 1820 46 view .LVU277
+ 922              	.LBE81:
+ 923              	.LBE80:
  178:Core/Src/uart.c ****         break;
- 915              		.loc 1 178 9 is_stmt 1 view .LVU274
+ 924              		.loc 1 178 9 is_stmt 1 view .LVU278
  179:Core/Src/uart.c ****     }
- 916              		.loc 1 179 9 view .LVU275
+ 925              		.loc 1 179 9 view .LVU279
  178:Core/Src/uart.c ****         break;
- 917              		.loc 1 178 13 is_stmt 0 view .LVU276
- 918 0060 2F4B     		ldr	r3, .L55+28
+ 926              		.loc 1 178 13 is_stmt 0 view .LVU280
+ 927 0062 344B     		ldr	r3, .L55+28
  179:Core/Src/uart.c ****     }
- 919              		.loc 1 179 9 view .LVU277
- 920 0062 1FE0     		b	.L51
- 921              	.LVL72:
- 922              	.L44:
+ 928              		.loc 1 179 9 view .LVU281
+ 929 0064 1FE0     		b	.L51
+ 930              	.LVL76:
+ 931              	.L44:
  163:Core/Src/uart.c ****     {
- 923              		.loc 1 163 5 view .LVU278
- 924 0064 2F4A     		ldr	r2, .L55+32
- 925 0066 9042     		cmp	r0, r2
- 926 0068 10D0     		beq	.L49
- 927 006a 02F58062 		add	r2, r2, #1024
- 928 006e 9042     		cmp	r0, r2
- 929 0070 41D1     		bne	.L48
+ 932              		.loc 1 163 5 view .LVU282
+ 933 0066 344B     		ldr	r3, .L55+32
+ 934 0068 9842     		cmp	r0, r3
+ 935 006a 10D0     		beq	.L49
+ 936 006c 03F58063 		add	r3, r3, #1024
+ 937 0070 9842     		cmp	r0, r3
+ 938 0072 4AD1     		bne	.L48
  191:Core/Src/uart.c ****         __NVIC_SetPriority(DMA2_Stream1_IRQn, 0);
- 930              		.loc 1 191 9 is_stmt 1 view .LVU279
+ 939              		.loc 1 191 9 is_stmt 1 view .LVU283
  191:Core/Src/uart.c ****         __NVIC_SetPriority(DMA2_Stream1_IRQn, 0);
- 931              		.loc 1 191 22 is_stmt 0 view .LVU280
- 932 0072 254A     		ldr	r2, .L55+4
- 933 0074 136B     		ldr	r3, [r2, #48]
- 934 0076 43F48003 		orr	r3, r3, #4194304
- 935 007a 1363     		str	r3, [r2, #48]
+ 940              		.loc 1 191 22 is_stmt 0 view .LVU284
+ 941 0074 2948     		ldr	r0, .L55+4
+ 942              	.LVL77:
+ 191:Core/Src/uart.c ****         __NVIC_SetPriority(DMA2_Stream1_IRQn, 0);
+ 943              		.loc 1 191 22 view .LVU285
+ 944 0076 036B     		ldr	r3, [r0, #48]
+ 945 0078 43F48003 		orr	r3, r3, #4194304
+ 946 007c 0363     		str	r3, [r0, #48]
  192:Core/Src/uart.c ****         __NVIC_SetPriority(DMA2_Stream1_IRQn, 0);
- 936              		.loc 1 192 9 is_stmt 1 view .LVU281
- 937              	.LVL73:
- 938              	.LBB82:
- 939              	.LBI82:
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 56
+
+
+ 947              		.loc 1 192 9 is_stmt 1 view .LVU286
+ 948              	.LVL78:
+ 949              	.LBB82:
+ 950              	.LBI82:
 1816:Drivers/CMSIS/Include/core_cm4.h **** {
- 940              		.loc 2 1816 22 view .LVU282
- 941              	.LBB83:
+ 951              		.loc 2 1816 22 view .LVU287
+ 952              	.LBB83:
 1818:Drivers/CMSIS/Include/core_cm4.h ****   {
- 942              		.loc 2 1818 3 view .LVU283
- 943              		.loc 2 1820 5 view .LVU284
- 944              		.loc 2 1820 46 is_stmt 0 view .LVU285
- 945 007c 234B     		ldr	r3, .L55+8
- 946 007e 0022     		movs	r2, #0
- 947 0080 83F83923 		strb	r2, [r3, #825]
- 948              	.LVL74:
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 56
-
-
- 949              		.loc 2 1820 46 view .LVU286
- 950              	.LBE83:
- 951              	.LBE82:
+ 953              		.loc 2 1818 3 view .LVU288
+ 954              		.loc 2 1820 5 view .LVU289
+ 955              		.loc 2 1820 46 is_stmt 0 view .LVU290
+ 956 007e 284B     		ldr	r3, .L55+8
+ 957 0080 0020     		movs	r0, #0
+ 958 0082 83F83903 		strb	r0, [r3, #825]
+ 959              	.LVL79:
+ 960              		.loc 2 1820 46 view .LVU291
+ 961              	.LBE83:
+ 962              	.LBE82:
  193:Core/Src/uart.c ****         dma = DMA2_Stream1;
- 952              		.loc 1 193 9 is_stmt 1 view .LVU287
- 953              	.LBB84:
- 954              	.LBI84:
+ 963              		.loc 1 193 9 is_stmt 1 view .LVU292
+ 964              	.LBB84:
+ 965              	.LBI84:
 1816:Drivers/CMSIS/Include/core_cm4.h **** {
- 955              		.loc 2 1816 22 view .LVU288
- 956              	.LBB85:
+ 966              		.loc 2 1816 22 view .LVU293
+ 967              	.LBB85:
 1818:Drivers/CMSIS/Include/core_cm4.h ****   {
- 957              		.loc 2 1818 3 view .LVU289
- 958              		.loc 2 1820 5 view .LVU290
- 959              		.loc 2 1820 46 is_stmt 0 view .LVU291
- 960 0084 83F83923 		strb	r2, [r3, #825]
- 961              	.LVL75:
- 962              		.loc 2 1820 46 view .LVU292
- 963              	.LBE85:
- 964              	.LBE84:
+ 968              		.loc 2 1818 3 view .LVU294
+ 969              		.loc 2 1820 5 view .LVU295
+ 970              		.loc 2 1820 46 is_stmt 0 view .LVU296
+ 971 0086 83F83903 		strb	r0, [r3, #825]
+ 972              	.LVL80:
+ 973              		.loc 2 1820 46 view .LVU297
+ 974              	.LBE85:
+ 975              	.LBE84:
  194:Core/Src/uart.c ****         break;
- 965              		.loc 1 194 9 is_stmt 1 view .LVU293
+ 976              		.loc 1 194 9 is_stmt 1 view .LVU298
  195:Core/Src/uart.c ****     }
- 966              		.loc 1 195 9 view .LVU294
+ 977              		.loc 1 195 9 view .LVU299
  194:Core/Src/uart.c ****         break;
- 967              		.loc 1 194 13 is_stmt 0 view .LVU295
- 968 0088 274B     		ldr	r3, .L55+36
+ 978              		.loc 1 194 13 is_stmt 0 view .LVU300
+ 979 008a 2C4B     		ldr	r3, .L55+36
  195:Core/Src/uart.c ****     }
- 969              		.loc 1 195 9 view .LVU296
- 970 008a 0BE0     		b	.L51
- 971              	.LVL76:
- 972              	.L49:
+ 980              		.loc 1 195 9 view .LVU301
+ 981 008c 0BE0     		b	.L51
+ 982              	.LVL81:
+ 983              	.L49:
  167:Core/Src/uart.c ****         __NVIC_SetPriority(DMA2_Stream2_IRQn, 0);
- 973              		.loc 1 167 9 is_stmt 1 view .LVU297
+ 984              		.loc 1 167 9 is_stmt 1 view .LVU302
  167:Core/Src/uart.c ****         __NVIC_SetPriority(DMA2_Stream2_IRQn, 0);
- 974              		.loc 1 167 22 is_stmt 0 view .LVU298
- 975 008c 1E4A     		ldr	r2, .L55+4
- 976 008e 136B     		ldr	r3, [r2, #48]
- 977 0090 43F48003 		orr	r3, r3, #4194304
- 978 0094 1363     		str	r3, [r2, #48]
+ 985              		.loc 1 167 22 is_stmt 0 view .LVU303
+ 986 008e 2348     		ldr	r0, .L55+4
+ 987              	.LVL82:
+ 167:Core/Src/uart.c ****         __NVIC_SetPriority(DMA2_Stream2_IRQn, 0);
+ 988              		.loc 1 167 22 view .LVU304
+ 989 0090 036B     		ldr	r3, [r0, #48]
+ 990 0092 43F48003 		orr	r3, r3, #4194304
+ 991 0096 0363     		str	r3, [r0, #48]
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 57
+
+
  168:Core/Src/uart.c ****         __NVIC_SetPriority(DMA2_Stream2_IRQn, 0);
- 979              		.loc 1 168 9 is_stmt 1 view .LVU299
- 980              	.LVL77:
- 981              	.LBB86:
- 982              	.LBI86:
+ 992              		.loc 1 168 9 is_stmt 1 view .LVU305
+ 993              	.LVL83:
+ 994              	.LBB86:
+ 995              	.LBI86:
 1816:Drivers/CMSIS/Include/core_cm4.h **** {
- 983              		.loc 2 1816 22 view .LVU300
- 984              	.LBB87:
+ 996              		.loc 2 1816 22 view .LVU306
+ 997              	.LBB87:
 1818:Drivers/CMSIS/Include/core_cm4.h ****   {
- 985              		.loc 2 1818 3 view .LVU301
- 986              		.loc 2 1820 5 view .LVU302
- 987              		.loc 2 1820 46 is_stmt 0 view .LVU303
- 988 0096 1D4B     		ldr	r3, .L55+8
- 989 0098 0022     		movs	r2, #0
- 990 009a 83F83A23 		strb	r2, [r3, #826]
- 991              	.LVL78:
- 992              		.loc 2 1820 46 view .LVU304
- 993              	.LBE87:
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 57
-
-
- 994              	.LBE86:
- 169:Core/Src/uart.c ****         dma = DMA2_Stream2;
- 995              		.loc 1 169 9 is_stmt 1 view .LVU305
- 996              	.LBB88:
- 997              	.LBI88:
-1816:Drivers/CMSIS/Include/core_cm4.h **** {
- 998              		.loc 2 1816 22 view .LVU306
- 999              	.LBB89:
-1818:Drivers/CMSIS/Include/core_cm4.h ****   {
- 1000              		.loc 2 1818 3 view .LVU307
- 1001              		.loc 2 1820 5 view .LVU308
- 1002              		.loc 2 1820 46 is_stmt 0 view .LVU309
- 1003 009e 83F83A23 		strb	r2, [r3, #826]
- 1004              	.LVL79:
+ 998              		.loc 2 1818 3 view .LVU307
+ 999              		.loc 2 1820 5 view .LVU308
+ 1000              		.loc 2 1820 46 is_stmt 0 view .LVU309
+ 1001 0098 214B     		ldr	r3, .L55+8
+ 1002 009a 0020     		movs	r0, #0
+ 1003 009c 83F83A03 		strb	r0, [r3, #826]
+ 1004              	.LVL84:
  1005              		.loc 2 1820 46 view .LVU310
- 1006              	.LBE89:
- 1007              	.LBE88:
+ 1006              	.LBE87:
+ 1007              	.LBE86:
+ 169:Core/Src/uart.c ****         dma = DMA2_Stream2;
+ 1008              		.loc 1 169 9 is_stmt 1 view .LVU311
+ 1009              	.LBB88:
+ 1010              	.LBI88:
+1816:Drivers/CMSIS/Include/core_cm4.h **** {
+ 1011              		.loc 2 1816 22 view .LVU312
+ 1012              	.LBB89:
+1818:Drivers/CMSIS/Include/core_cm4.h ****   {
+ 1013              		.loc 2 1818 3 view .LVU313
+ 1014              		.loc 2 1820 5 view .LVU314
+ 1015              		.loc 2 1820 46 is_stmt 0 view .LVU315
+ 1016 00a0 83F83A03 		strb	r0, [r3, #826]
+ 1017              	.LVL85:
+ 1018              		.loc 2 1820 46 view .LVU316
+ 1019              	.LBE89:
+ 1020              	.LBE88:
  170:Core/Src/uart.c ****         break;
- 1008              		.loc 1 170 9 is_stmt 1 view .LVU311
+ 1021              		.loc 1 170 9 is_stmt 1 view .LVU317
  171:Core/Src/uart.c ****     }
- 1009              		.loc 1 171 9 view .LVU312
+ 1022              		.loc 1 171 9 view .LVU318
  170:Core/Src/uart.c ****         break;
- 1010              		.loc 1 170 13 is_stmt 0 view .LVU313
- 1011 00a2 224B     		ldr	r3, .L55+40
- 1012              	.LVL80:
- 1013              	.L51:
+ 1023              		.loc 1 170 13 is_stmt 0 view .LVU319
+ 1024 00a4 264B     		ldr	r3, .L55+40
+ 1025              	.LVL86:
+ 1026              	.L51:
  204:Core/Src/uart.c ****     }
  205:Core/Src/uart.c ****     case (uint32_t)UART5:
  206:Core/Src/uart.c ****     {
@@ -3400,27 +3418,27 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  214:Core/Src/uart.c ****     default:
  215:Core/Src/uart.c ****         assert(0);
  216:Core/Src/uart.c ****     }
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 58
+
+
  217:Core/Src/uart.c **** 
  218:Core/Src/uart.c ****     dma->CR |= (DMA_SxCR_EN);   // disable DMA stream
- 1014              		.loc 1 218 5 is_stmt 1 view .LVU314
- 1015              		.loc 1 218 13 is_stmt 0 view .LVU315
- 1016 00a4 1A68     		ldr	r2, [r3]
- 1017 00a6 42F00102 		orr	r2, r2, #1
- 1018 00aa 1A60     		str	r2, [r3]
+ 1027              		.loc 1 218 5 is_stmt 1 view .LVU320
+ 1028              		.loc 1 218 13 is_stmt 0 view .LVU321
+ 1029 00a6 1868     		ldr	r0, [r3]
+ 1030 00a8 40F00100 		orr	r0, r0, #1
+ 1031 00ac 1860     		str	r0, [r3]
  219:Core/Src/uart.c **** 
  220:Core/Src/uart.c ****     dma->CR &= ~((DMA_SxCR_CHSEL_Msk) |     // Channel selection: channel 0
- 1019              		.loc 1 220 5 is_stmt 1 view .LVU316
- 1020              		.loc 1 220 13 is_stmt 0 view .LVU317
- 1021 00ac 1968     		ldr	r1, [r3]
- 1022 00ae 204A     		ldr	r2, .L55+44
- 1023 00b0 0A40     		ands	r2, r2, r1
- 1024 00b2 1A60     		str	r2, [r3]
+ 1032              		.loc 1 220 5 is_stmt 1 view .LVU322
+ 1033              		.loc 1 220 13 is_stmt 0 view .LVU323
+ 1034 00ae 1C68     		ldr	r4, [r3]
+ 1035 00b0 2448     		ldr	r0, .L55+44
+ 1036 00b2 2040     		ands	r0, r0, r4
+ 1037 00b4 1860     		str	r0, [r3]
  221:Core/Src/uart.c ****         (DMA_SxCR_MBURST_Msk) |             // Memory burst transfer configuration: single transfer
  222:Core/Src/uart.c ****         (DMA_SxCR_PBURST_Msk) |             // Peripheral burst transfer configuration: single tran
  223:Core/Src/uart.c ****         (DMA_SxCR_CT) |                     // Current target (only in double buffer mode)
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 58
-
-
  224:Core/Src/uart.c ****         (DMA_SxCR_DBM) |                    // Double buffer mode: No buffer switching at the end o
  225:Core/Src/uart.c ****         (DMA_SxCR_PINCOS) |                 // Peripheral increment offset size: Linked to the PSIZ
  226:Core/Src/uart.c ****         (DMA_SxCR_MSIZE_Msk) |              // Memory data size: Byte (8-bit)
@@ -3431,321 +3449,361 @@ ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 1
  231:Core/Src/uart.c ****         (DMA_SxCR_PFCTRL));                 // Peripheral flow controller: DMA is the flow controll
  232:Core/Src/uart.c **** 
  233:Core/Src/uart.c ****     dma->CR |= ((1 << DMA_SxCR_PL_Pos) |    // Priority level: meduim
- 1025              		.loc 1 233 5 is_stmt 1 view .LVU318
- 1026              		.loc 1 233 13 is_stmt 0 view .LVU319
- 1027 00b4 1A68     		ldr	r2, [r3]
- 1028 00b6 42F48232 		orr	r2, r2, #66560
- 1029 00ba 42F01E02 		orr	r2, r2, #30
- 1030 00be 1A60     		str	r2, [r3]
+ 1038              		.loc 1 233 5 is_stmt 1 view .LVU324
+ 1039              		.loc 1 233 13 is_stmt 0 view .LVU325
+ 1040 00b6 1868     		ldr	r0, [r3]
+ 1041 00b8 40F48230 		orr	r0, r0, #66560
+ 1042 00bc 40F01E00 		orr	r0, r0, #30
+ 1043 00c0 1860     		str	r0, [r3]
  234:Core/Src/uart.c ****         (DMA_SxCR_MINC) |                   // Memory increment mode: memory address pointer is inc
  235:Core/Src/uart.c ****         (DMA_SxCR_TCIE) |                   // Transfer complete interrupt: enabled
  236:Core/Src/uart.c ****         (DMA_SxCR_HTIE) |                   // Half transfer interrupt: enabled
  237:Core/Src/uart.c ****         (DMA_SxCR_TEIE) |                   // Transfer error interrupt: enabled
  238:Core/Src/uart.c ****         (DMA_SxCR_DMEIE));                  // Direct mode error interrupt: enabled
- 239:Core/Src/uart.c **** }
- 1031              		.loc 1 239 1 view .LVU320
- 1032 00c0 08BD     		pop	{r3, pc}
- 1033              	.LVL81:
- 1034              	.L45:
+ 239:Core/Src/uart.c **** 
+ 240:Core/Src/uart.c ****     dma->NDTR = size;                   // Size of the RX buffer
+ 1044              		.loc 1 240 5 is_stmt 1 view .LVU326
+ 1045              		.loc 1 240 15 is_stmt 0 view .LVU327
+ 1046 00c2 5A60     		str	r2, [r3, #4]
+ 241:Core/Src/uart.c ****     dma->PAR = (uint32_t)&usart->DR;    // Address of the Peripheral register to read from
+ 1047              		.loc 1 241 5 is_stmt 1 view .LVU328
+ 1048              		.loc 1 241 26 is_stmt 0 view .LVU329
+ 1049 00c4 0CF10402 		add	r2, ip, #4
+ 1050              	.LVL87:
+ 1051              		.loc 1 241 14 view .LVU330
+ 1052 00c8 9A60     		str	r2, [r3, #8]
+ 242:Core/Src/uart.c ****     dma->M0AR = (uint32_t)rxBuf;        // Address of the RX buffer to store data in
+ 1053              		.loc 1 242 5 is_stmt 1 view .LVU331
+ 1054              		.loc 1 242 15 is_stmt 0 view .LVU332
+ 1055 00ca D960     		str	r1, [r3, #12]
+ 243:Core/Src/uart.c **** 
+ 244:Core/Src/uart.c ****     dma->CR |= (DMA_SxCR_EN);   // enable DMA
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 59
+
+
+ 1056              		.loc 1 244 5 is_stmt 1 view .LVU333
+ 1057              		.loc 1 244 13 is_stmt 0 view .LVU334
+ 1058 00cc 1A68     		ldr	r2, [r3]
+ 1059 00ce 42F00102 		orr	r2, r2, #1
+ 1060 00d2 1A60     		str	r2, [r3]
+ 245:Core/Src/uart.c **** }
+ 1061              		.loc 1 245 1 view .LVU335
+ 1062 00d4 10BD     		pop	{r4, pc}
+ 1063              	.LVL88:
+ 1064              	.L45:
  183:Core/Src/uart.c ****         __NVIC_SetPriority(DMA1_Stream1_IRQn, 0);
- 1035              		.loc 1 183 9 is_stmt 1 view .LVU321
+ 1065              		.loc 1 183 9 is_stmt 1 view .LVU336
  183:Core/Src/uart.c ****         __NVIC_SetPriority(DMA1_Stream1_IRQn, 0);
- 1036              		.loc 1 183 22 is_stmt 0 view .LVU322
- 1037 00c2 114A     		ldr	r2, .L55+4
- 1038 00c4 136B     		ldr	r3, [r2, #48]
- 1039 00c6 43F40013 		orr	r3, r3, #2097152
- 1040 00ca 1363     		str	r3, [r2, #48]
+ 1066              		.loc 1 183 22 is_stmt 0 view .LVU337
+ 1067 00d6 1148     		ldr	r0, .L55+4
+ 1068              	.LVL89:
+ 183:Core/Src/uart.c ****         __NVIC_SetPriority(DMA1_Stream1_IRQn, 0);
+ 1069              		.loc 1 183 22 view .LVU338
+ 1070 00d8 036B     		ldr	r3, [r0, #48]
+ 1071 00da 43F40013 		orr	r3, r3, #2097152
+ 1072 00de 0363     		str	r3, [r0, #48]
  184:Core/Src/uart.c ****         __NVIC_SetPriority(DMA1_Stream1_IRQn, 0);
- 1041              		.loc 1 184 9 is_stmt 1 view .LVU323
- 1042              	.LVL82:
- 1043              	.LBB90:
- 1044              	.LBI90:
+ 1073              		.loc 1 184 9 is_stmt 1 view .LVU339
+ 1074              	.LVL90:
+ 1075              	.LBB90:
+ 1076              	.LBI90:
 1816:Drivers/CMSIS/Include/core_cm4.h **** {
- 1045              		.loc 2 1816 22 view .LVU324
- 1046              	.LBB91:
+ 1077              		.loc 2 1816 22 view .LVU340
+ 1078              	.LBB91:
 1818:Drivers/CMSIS/Include/core_cm4.h ****   {
- 1047              		.loc 2 1818 3 view .LVU325
- 1048              		.loc 2 1820 5 view .LVU326
- 1049              		.loc 2 1820 46 is_stmt 0 view .LVU327
- 1050 00cc 0F4B     		ldr	r3, .L55+8
- 1051 00ce 0022     		movs	r2, #0
- 1052 00d0 83F80C23 		strb	r2, [r3, #780]
- 1053              	.LVL83:
- 1054              		.loc 2 1820 46 view .LVU328
- 1055              	.LBE91:
- 1056              	.LBE90:
+ 1079              		.loc 2 1818 3 view .LVU341
+ 1080              		.loc 2 1820 5 view .LVU342
+ 1081              		.loc 2 1820 46 is_stmt 0 view .LVU343
+ 1082 00e0 0F4B     		ldr	r3, .L55+8
+ 1083 00e2 0020     		movs	r0, #0
+ 1084 00e4 83F80C03 		strb	r0, [r3, #780]
+ 1085              	.LVL91:
+ 1086              		.loc 2 1820 46 view .LVU344
+ 1087              	.LBE91:
+ 1088              	.LBE90:
  185:Core/Src/uart.c ****         dma = DMA1_Stream1;
- 1057              		.loc 1 185 9 is_stmt 1 view .LVU329
- 1058              	.LBB92:
- 1059              	.LBI92:
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 59
-
-
+ 1089              		.loc 1 185 9 is_stmt 1 view .LVU345
+ 1090              	.LBB92:
+ 1091              	.LBI92:
 1816:Drivers/CMSIS/Include/core_cm4.h **** {
- 1060              		.loc 2 1816 22 view .LVU330
- 1061              	.LBB93:
+ 1092              		.loc 2 1816 22 view .LVU346
+ 1093              	.LBB93:
 1818:Drivers/CMSIS/Include/core_cm4.h ****   {
- 1062              		.loc 2 1818 3 view .LVU331
- 1063              		.loc 2 1820 5 view .LVU332
- 1064              		.loc 2 1820 46 is_stmt 0 view .LVU333
- 1065 00d4 83F80C23 		strb	r2, [r3, #780]
- 1066              	.LVL84:
- 1067              		.loc 2 1820 46 view .LVU334
- 1068              	.LBE93:
- 1069              	.LBE92:
+ 1094              		.loc 2 1818 3 view .LVU347
+ 1095              		.loc 2 1820 5 view .LVU348
+ 1096              		.loc 2 1820 46 is_stmt 0 view .LVU349
+ 1097 00e8 83F80C03 		strb	r0, [r3, #780]
+ 1098              	.LVL92:
+ 1099              		.loc 2 1820 46 view .LVU350
+ 1100              	.LBE93:
+ 1101              	.LBE92:
  186:Core/Src/uart.c ****         break;
- 1070              		.loc 1 186 9 is_stmt 1 view .LVU335
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 60
+
+
+ 1102              		.loc 1 186 9 is_stmt 1 view .LVU351
  187:Core/Src/uart.c ****     }
- 1071              		.loc 1 187 9 view .LVU336
+ 1103              		.loc 1 187 9 view .LVU352
  186:Core/Src/uart.c ****         break;
- 1072              		.loc 1 186 13 is_stmt 0 view .LVU337
- 1073 00d8 164B     		ldr	r3, .L55+48
+ 1104              		.loc 1 186 13 is_stmt 0 view .LVU353
+ 1105 00ec 164B     		ldr	r3, .L55+48
  187:Core/Src/uart.c ****     }
- 1074              		.loc 1 187 9 view .LVU338
- 1075 00da E3E7     		b	.L51
- 1076              	.LVL85:
- 1077              	.L43:
+ 1106              		.loc 1 187 9 view .LVU354
+ 1107 00ee DAE7     		b	.L51
+ 1108              	.LVL93:
+ 1109              	.L43:
  207:Core/Src/uart.c ****         __NVIC_SetPriority(DMA1_Stream0_IRQn, 0);
- 1078              		.loc 1 207 9 is_stmt 1 view .LVU339
+ 1110              		.loc 1 207 9 is_stmt 1 view .LVU355
  207:Core/Src/uart.c ****         __NVIC_SetPriority(DMA1_Stream0_IRQn, 0);
- 1079              		.loc 1 207 22 is_stmt 0 view .LVU340
- 1080 00dc 0A4A     		ldr	r2, .L55+4
- 1081 00de 136B     		ldr	r3, [r2, #48]
- 1082 00e0 43F40013 		orr	r3, r3, #2097152
- 1083 00e4 1363     		str	r3, [r2, #48]
+ 1111              		.loc 1 207 22 is_stmt 0 view .LVU356
+ 1112 00f0 0A48     		ldr	r0, .L55+4
+ 1113              	.LVL94:
+ 207:Core/Src/uart.c ****         __NVIC_SetPriority(DMA1_Stream0_IRQn, 0);
+ 1114              		.loc 1 207 22 view .LVU357
+ 1115 00f2 036B     		ldr	r3, [r0, #48]
+ 1116 00f4 43F40013 		orr	r3, r3, #2097152
+ 1117 00f8 0363     		str	r3, [r0, #48]
  208:Core/Src/uart.c ****         __NVIC_SetPriority(DMA1_Stream0_IRQn, 0);
- 1084              		.loc 1 208 9 is_stmt 1 view .LVU341
- 1085              	.LVL86:
- 1086              	.LBB94:
- 1087              	.LBI94:
+ 1118              		.loc 1 208 9 is_stmt 1 view .LVU358
+ 1119              	.LVL95:
+ 1120              	.LBB94:
+ 1121              	.LBI94:
 1816:Drivers/CMSIS/Include/core_cm4.h **** {
- 1088              		.loc 2 1816 22 view .LVU342
- 1089              	.LBB95:
+ 1122              		.loc 2 1816 22 view .LVU359
+ 1123              	.LBB95:
 1818:Drivers/CMSIS/Include/core_cm4.h ****   {
- 1090              		.loc 2 1818 3 view .LVU343
- 1091              		.loc 2 1820 5 view .LVU344
- 1092              		.loc 2 1820 46 is_stmt 0 view .LVU345
- 1093 00e6 094B     		ldr	r3, .L55+8
- 1094 00e8 0022     		movs	r2, #0
- 1095 00ea 83F80B23 		strb	r2, [r3, #779]
- 1096              	.LVL87:
- 1097              		.loc 2 1820 46 view .LVU346
- 1098              	.LBE95:
- 1099              	.LBE94:
+ 1124              		.loc 2 1818 3 view .LVU360
+ 1125              		.loc 2 1820 5 view .LVU361
+ 1126              		.loc 2 1820 46 is_stmt 0 view .LVU362
+ 1127 00fa 094B     		ldr	r3, .L55+8
+ 1128 00fc 0020     		movs	r0, #0
+ 1129 00fe 83F80B03 		strb	r0, [r3, #779]
+ 1130              	.LVL96:
+ 1131              		.loc 2 1820 46 view .LVU363
+ 1132              	.LBE95:
+ 1133              	.LBE94:
  209:Core/Src/uart.c ****         dma = DMA1_Stream0;
- 1100              		.loc 1 209 9 is_stmt 1 view .LVU347
- 1101              	.LBB96:
- 1102              	.LBI96:
+ 1134              		.loc 1 209 9 is_stmt 1 view .LVU364
+ 1135              	.LBB96:
+ 1136              	.LBI96:
 1816:Drivers/CMSIS/Include/core_cm4.h **** {
- 1103              		.loc 2 1816 22 view .LVU348
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 60
-
-
- 1104              	.LBB97:
+ 1137              		.loc 2 1816 22 view .LVU365
+ 1138              	.LBB97:
 1818:Drivers/CMSIS/Include/core_cm4.h ****   {
- 1105              		.loc 2 1818 3 view .LVU349
- 1106              		.loc 2 1820 5 view .LVU350
- 1107              		.loc 2 1820 46 is_stmt 0 view .LVU351
- 1108 00ee 83F80B23 		strb	r2, [r3, #779]
- 1109              	.LVL88:
- 1110              		.loc 2 1820 46 view .LVU352
- 1111              	.LBE97:
- 1112              	.LBE96:
+ 1139              		.loc 2 1818 3 view .LVU366
+ 1140              		.loc 2 1820 5 view .LVU367
+ 1141              		.loc 2 1820 46 is_stmt 0 view .LVU368
+ 1142 0102 83F80B03 		strb	r0, [r3, #779]
+ 1143              	.LVL97:
+ 1144              		.loc 2 1820 46 view .LVU369
+ 1145              	.LBE97:
+ 1146              	.LBE96:
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 61
+
+
  210:Core/Src/uart.c ****         break;
- 1113              		.loc 1 210 9 is_stmt 1 view .LVU353
+ 1147              		.loc 1 210 9 is_stmt 1 view .LVU370
  211:Core/Src/uart.c ****     }
- 1114              		.loc 1 211 9 view .LVU354
+ 1148              		.loc 1 211 9 view .LVU371
  210:Core/Src/uart.c ****         break;
- 1115              		.loc 1 210 13 is_stmt 0 view .LVU355
- 1116 00f2 114B     		ldr	r3, .L55+52
+ 1149              		.loc 1 210 13 is_stmt 0 view .LVU372
+ 1150 0106 114B     		ldr	r3, .L55+52
  211:Core/Src/uart.c ****     }
- 1117              		.loc 1 211 9 view .LVU356
- 1118 00f4 D6E7     		b	.L51
- 1119              	.LVL89:
- 1120              	.L48:
+ 1151              		.loc 1 211 9 view .LVU373
+ 1152 0108 CDE7     		b	.L51
+ 1153              	.LVL98:
+ 1154              	.L48:
  215:Core/Src/uart.c ****     }
- 1121              		.loc 1 215 9 is_stmt 1 view .LVU357
- 1122 00f6 114B     		ldr	r3, .L55+56
- 1123 00f8 074A     		ldr	r2, .L55+20
- 1124 00fa D721     		movs	r1, #215
- 1125 00fc 0748     		ldr	r0, .L55+24
- 1126              	.LVL90:
+ 1155              		.loc 1 215 9 is_stmt 1 view .LVU374
+ 1156 010a 114B     		ldr	r3, .L55+56
+ 1157 010c 074A     		ldr	r2, .L55+20
+ 1158              	.LVL99:
  215:Core/Src/uart.c ****     }
- 1127              		.loc 1 215 9 is_stmt 0 view .LVU358
- 1128 00fe FFF7FEFF 		bl	__assert_func
- 1129              	.LVL91:
- 1130              	.L56:
- 1131 0102 00BF     		.align	2
- 1132              	.L55:
- 1133 0104 00500040 		.word	1073762304
- 1134 0108 00380240 		.word	1073887232
- 1135 010c 00E100E0 		.word	-536813312
- 1136 0110 40600240 		.word	1073897536
- 1137 0114 00000000 		.word	.LC0
- 1138 0118 00000000 		.word	.LANCHOR3
- 1139 011c 08000000 		.word	.LC1
- 1140 0120 88600240 		.word	1073897608
- 1141 0124 00100140 		.word	1073811456
- 1142 0128 28640240 		.word	1073898536
- 1143 012c 40640240 		.word	1073898560
- 1144 0130 1F0413F0 		.word	-267189217
- 1145 0134 28600240 		.word	1073897512
- 1146 0138 10600240 		.word	1073897488
- 1147 013c 18000000 		.word	.LC2
- 1148              		.cfi_endproc
- 1149              	.LFE133:
- 1151              		.section	.text.usart_enable_idle_line_irq,"ax",%progbits
- 1152              		.align	1
- 1153              		.global	usart_enable_idle_line_irq
- 1154              		.syntax unified
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 61
+ 1159              		.loc 1 215 9 is_stmt 0 view .LVU375
+ 1160 010e D721     		movs	r1, #215
+ 1161              	.LVL100:
+ 215:Core/Src/uart.c ****     }
+ 1162              		.loc 1 215 9 view .LVU376
+ 1163 0110 0748     		ldr	r0, .L55+24
+ 1164              	.LVL101:
+ 215:Core/Src/uart.c ****     }
+ 1165              		.loc 1 215 9 view .LVU377
+ 1166 0112 FFF7FEFF 		bl	__assert_func
+ 1167              	.LVL102:
+ 1168              	.L56:
+ 215:Core/Src/uart.c ****     }
+ 1169              		.loc 1 215 9 view .LVU378
+ 1170 0116 00BF     		.align	2
+ 1171              	.L55:
+ 1172 0118 00500040 		.word	1073762304
+ 1173 011c 00380240 		.word	1073887232
+ 1174 0120 00E100E0 		.word	-536813312
+ 1175 0124 40600240 		.word	1073897536
+ 1176 0128 00000000 		.word	.LC0
+ 1177 012c 00000000 		.word	.LANCHOR3
+ 1178 0130 08000000 		.word	.LC1
+ 1179 0134 88600240 		.word	1073897608
+ 1180 0138 00100140 		.word	1073811456
+ 1181 013c 28640240 		.word	1073898536
+ 1182 0140 40640240 		.word	1073898560
+ 1183 0144 1F0413F0 		.word	-267189217
+ 1184 0148 28600240 		.word	1073897512
+ 1185 014c 10600240 		.word	1073897488
+ 1186 0150 18000000 		.word	.LC2
+ 1187              		.cfi_endproc
+ 1188              	.LFE133:
+ 1190              		.section	.text.usart_enable_idle_line_irq,"ax",%progbits
+ 1191              		.align	1
+ 1192              		.global	usart_enable_idle_line_irq
+ 1193              		.syntax unified
+ 1194              		.thumb
+ 1195              		.thumb_func
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 62
 
 
- 1155              		.thumb
- 1156              		.thumb_func
- 1157              		.fpu fpv4-sp-d16
- 1159              	usart_enable_idle_line_irq:
- 1160              	.LVL92:
- 1161              	.LFB134:
- 240:Core/Src/uart.c **** 
- 241:Core/Src/uart.c **** void usart_enable_idle_line_irq(USART_TypeDef* usart)
- 242:Core/Src/uart.c **** {
- 1162              		.loc 1 242 1 is_stmt 1 view -0
- 1163              		.cfi_startproc
- 1164              		@ args = 0, pretend = 0, frame = 0
- 1165              		@ frame_needed = 0, uses_anonymous_args = 0
- 1166              		.loc 1 242 1 is_stmt 0 view .LVU360
- 1167 0000 10B5     		push	{r4, lr}
- 1168              	.LCFI4:
- 1169              		.cfi_def_cfa_offset 8
- 1170              		.cfi_offset 4, -8
- 1171              		.cfi_offset 14, -4
- 243:Core/Src/uart.c ****     assert(usart);
- 1172              		.loc 1 243 5 is_stmt 1 view .LVU361
- 1173 0002 40B1     		cbz	r0, .L60
- 1174 0004 0446     		mov	r4, r0
- 244:Core/Src/uart.c **** 
- 245:Core/Src/uart.c ****     usart_register_irq(usart, 0);
- 1175              		.loc 1 245 5 view .LVU362
- 1176 0006 0021     		movs	r1, #0
- 1177 0008 FFF7FEFF 		bl	usart_register_irq
- 1178              	.LVL93:
- 246:Core/Src/uart.c ****     usart->CR1 |= (USART_CR1_IDLEIE);   // enable idle line interrupt
- 1179              		.loc 1 246 5 view .LVU363
- 1180              		.loc 1 246 16 is_stmt 0 view .LVU364
- 1181 000c E368     		ldr	r3, [r4, #12]
- 1182 000e 43F01003 		orr	r3, r3, #16
- 1183 0012 E360     		str	r3, [r4, #12]
- 247:Core/Src/uart.c **** }
- 1184              		.loc 1 247 1 view .LVU365
- 1185 0014 10BD     		pop	{r4, pc}
- 1186              	.LVL94:
- 1187              	.L60:
- 243:Core/Src/uart.c **** 
- 1188              		.loc 1 243 5 discriminator 1 view .LVU366
- 1189 0016 034B     		ldr	r3, .L61
- 1190 0018 034A     		ldr	r2, .L61+4
- 1191 001a F321     		movs	r1, #243
- 1192 001c 0348     		ldr	r0, .L61+8
- 1193              	.LVL95:
- 243:Core/Src/uart.c **** 
- 1194              		.loc 1 243 5 discriminator 1 view .LVU367
- 1195 001e FFF7FEFF 		bl	__assert_func
- 1196              	.LVL96:
- 1197              	.L62:
- 1198 0022 00BF     		.align	2
- 1199              	.L61:
- 1200 0024 00000000 		.word	.LC0
- 1201 0028 00000000 		.word	.LANCHOR4
- 1202 002c 08000000 		.word	.LC1
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 62
+ 1196              		.fpu fpv4-sp-d16
+ 1198              	usart_enable_idle_line_irq:
+ 1199              	.LVL103:
+ 1200              	.LFB134:
+ 246:Core/Src/uart.c **** 
+ 247:Core/Src/uart.c **** void usart_enable_idle_line_irq(USART_TypeDef* usart)
+ 248:Core/Src/uart.c **** {
+ 1201              		.loc 1 248 1 is_stmt 1 view -0
+ 1202              		.cfi_startproc
+ 1203              		@ args = 0, pretend = 0, frame = 0
+ 1204              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1205              		.loc 1 248 1 is_stmt 0 view .LVU380
+ 1206 0000 10B5     		push	{r4, lr}
+ 1207              	.LCFI4:
+ 1208              		.cfi_def_cfa_offset 8
+ 1209              		.cfi_offset 4, -8
+ 1210              		.cfi_offset 14, -4
+ 249:Core/Src/uart.c ****     assert(usart);
+ 1211              		.loc 1 249 5 is_stmt 1 view .LVU381
+ 1212 0002 40B1     		cbz	r0, .L60
+ 1213 0004 0446     		mov	r4, r0
+ 250:Core/Src/uart.c **** 
+ 251:Core/Src/uart.c ****     usart_register_irq(usart, 0);
+ 1214              		.loc 1 251 5 view .LVU382
+ 1215 0006 0021     		movs	r1, #0
+ 1216 0008 FFF7FEFF 		bl	usart_register_irq
+ 1217              	.LVL104:
+ 252:Core/Src/uart.c ****     usart->CR1 |= (USART_CR1_IDLEIE);   // enable idle line interrupt
+ 1218              		.loc 1 252 5 view .LVU383
+ 1219              		.loc 1 252 16 is_stmt 0 view .LVU384
+ 1220 000c E368     		ldr	r3, [r4, #12]
+ 1221 000e 43F01003 		orr	r3, r3, #16
+ 1222 0012 E360     		str	r3, [r4, #12]
+ 253:Core/Src/uart.c **** }
+ 1223              		.loc 1 253 1 view .LVU385
+ 1224 0014 10BD     		pop	{r4, pc}
+ 1225              	.LVL105:
+ 1226              	.L60:
+ 249:Core/Src/uart.c **** 
+ 1227              		.loc 1 249 5 discriminator 1 view .LVU386
+ 1228 0016 034B     		ldr	r3, .L61
+ 1229 0018 034A     		ldr	r2, .L61+4
+ 1230 001a F921     		movs	r1, #249
+ 1231 001c 0348     		ldr	r0, .L61+8
+ 1232              	.LVL106:
+ 249:Core/Src/uart.c **** 
+ 1233              		.loc 1 249 5 discriminator 1 view .LVU387
+ 1234 001e FFF7FEFF 		bl	__assert_func
+ 1235              	.LVL107:
+ 1236              	.L62:
+ 1237 0022 00BF     		.align	2
+ 1238              	.L61:
+ 1239 0024 00000000 		.word	.LC0
+ 1240 0028 00000000 		.word	.LANCHOR4
+ 1241 002c 08000000 		.word	.LC1
+ 1242              		.cfi_endproc
+ 1243              	.LFE134:
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 63
 
 
- 1203              		.cfi_endproc
- 1204              	.LFE134:
- 1206              		.section	.rodata.__func__.0,"a"
- 1207              		.align	2
- 1208              		.set	.LANCHOR4,. + 0
- 1211              	__func__.0:
- 1212 0000 75736172 		.ascii	"usart_enable_idle_line_irq\000"
- 1212      745F656E 
- 1212      61626C65 
- 1212      5F69646C 
- 1212      655F6C69 
- 1213              		.section	.rodata.__func__.1,"a"
- 1214              		.align	2
- 1215              		.set	.LANCHOR3,. + 0
- 1218              	__func__.1:
- 1219 0000 75736172 		.ascii	"usart_init_dma_receive\000"
- 1219      745F696E 
- 1219      69745F64 
- 1219      6D615F72 
- 1219      65636569 
- 1220              		.section	.rodata.__func__.2,"a"
- 1221              		.align	2
- 1222              		.set	.LANCHOR2,. + 0
- 1225              	__func__.2:
- 1226 0000 75736172 		.ascii	"usart_set_baude\000"
- 1226      745F7365 
- 1226      745F6261 
- 1226      75646500 
- 1227              		.section	.rodata.__func__.3,"a"
- 1228              		.align	2
- 1229              		.set	.LANCHOR1,. + 0
- 1232              	__func__.3:
- 1233 0000 75736172 		.ascii	"usart_register_irq\000"
- 1233      745F7265 
- 1233      67697374 
- 1233      65725F69 
- 1233      727100
- 1234              		.section	.rodata.__func__.4,"a"
- 1235              		.align	2
- 1236              		.set	.LANCHOR0,. + 0
- 1239              	__func__.4:
- 1240 0000 75736172 		.ascii	"usart_init_async\000"
- 1240      745F696E 
- 1240      69745F61 
- 1240      73796E63 
- 1240      00
- 1241              		.text
- 1242              	.Letext0:
- 1243              		.file 3 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f417xx.h"
- 1244              		.file 4 "c:\\dev\\embedded\\arm_toolchain\\gcc-arm-none-eabi-10.3-2021.07\\arm-none-eabi\\include\
- 1245              		.file 5 "c:\\dev\\embedded\\arm_toolchain\\gcc-arm-none-eabi-10.3-2021.07\\arm-none-eabi\\include\
- 1246              		.file 6 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h"
- 1247              		.file 7 "c:\\dev\\embedded\\arm_toolchain\\gcc-arm-none-eabi-10.3-2021.07\\arm-none-eabi\\include\
-ARM GAS  C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s 			page 63
+ 1245              		.section	.rodata.__func__.0,"a"
+ 1246              		.align	2
+ 1247              		.set	.LANCHOR4,. + 0
+ 1250              	__func__.0:
+ 1251 0000 75736172 		.ascii	"usart_enable_idle_line_irq\000"
+ 1251      745F656E 
+ 1251      61626C65 
+ 1251      5F69646C 
+ 1251      655F6C69 
+ 1252              		.section	.rodata.__func__.1,"a"
+ 1253              		.align	2
+ 1254              		.set	.LANCHOR3,. + 0
+ 1257              	__func__.1:
+ 1258 0000 75736172 		.ascii	"usart_init_dma_receive\000"
+ 1258      745F696E 
+ 1258      69745F64 
+ 1258      6D615F72 
+ 1258      65636569 
+ 1259              		.section	.rodata.__func__.2,"a"
+ 1260              		.align	2
+ 1261              		.set	.LANCHOR2,. + 0
+ 1264              	__func__.2:
+ 1265 0000 75736172 		.ascii	"usart_set_baude\000"
+ 1265      745F7365 
+ 1265      745F6261 
+ 1265      75646500 
+ 1266              		.section	.rodata.__func__.3,"a"
+ 1267              		.align	2
+ 1268              		.set	.LANCHOR1,. + 0
+ 1271              	__func__.3:
+ 1272 0000 75736172 		.ascii	"usart_register_irq\000"
+ 1272      745F7265 
+ 1272      67697374 
+ 1272      65725F69 
+ 1272      727100
+ 1273              		.section	.rodata.__func__.4,"a"
+ 1274              		.align	2
+ 1275              		.set	.LANCHOR0,. + 0
+ 1278              	__func__.4:
+ 1279 0000 75736172 		.ascii	"usart_init_async\000"
+ 1279      745F696E 
+ 1279      69745F61 
+ 1279      73796E63 
+ 1279      00
+ 1280              		.text
+ 1281              	.Letext0:
+ 1282              		.file 3 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f417xx.h"
+ 1283              		.file 4 "c:\\dev\\embedded\\arm_toolchain\\gcc-arm-none-eabi-10.3-2021.07\\arm-none-eabi\\include\
+ 1284              		.file 5 "c:\\dev\\embedded\\arm_toolchain\\gcc-arm-none-eabi-10.3-2021.07\\arm-none-eabi\\include\
+ 1285              		.file 6 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h"
+ 1286              		.file 7 "c:\\dev\\embedded\\arm_toolchain\\gcc-arm-none-eabi-10.3-2021.07\\arm-none-eabi\\include\
+ARM GAS  C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s 			page 64
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 uart.c
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:18     .rodata.usart_init_async.str1.4:00000000 $d
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:28     .text.usart_init_async:00000000 $t
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:36     .text.usart_init_async:00000000 usart_init_async
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:334    .text.usart_init_async:000001c0 $d
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:347    .text.usart_register_irq:00000000 $t
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:354    .text.usart_register_irq:00000000 usart_register_irq
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:659    .text.usart_register_irq:000000c0 $d
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:671    .rodata.usart_set_baude.str1.4:00000000 $d
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:675    .text.usart_set_baude:00000000 $t
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:682    .text.usart_set_baude:00000000 usart_set_baude
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:780    .text.usart_set_baude:00000078 $d
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:789    .text.usart_init_dma_receive:00000000 $t
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:796    .text.usart_init_dma_receive:00000000 usart_init_dma_receive
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:1133   .text.usart_init_dma_receive:00000104 $d
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:1152   .text.usart_enable_idle_line_irq:00000000 $t
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:1159   .text.usart_enable_idle_line_irq:00000000 usart_enable_idle_line_irq
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:1200   .text.usart_enable_idle_line_irq:00000024 $d
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:1207   .rodata.__func__.0:00000000 $d
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:1211   .rodata.__func__.0:00000000 __func__.0
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:1214   .rodata.__func__.1:00000000 $d
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:1218   .rodata.__func__.1:00000000 __func__.1
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:1221   .rodata.__func__.2:00000000 $d
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:1225   .rodata.__func__.2:00000000 __func__.2
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:1228   .rodata.__func__.3:00000000 $d
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:1232   .rodata.__func__.3:00000000 __func__.3
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:1235   .rodata.__func__.4:00000000 $d
-C:\Users\Johan\AppData\Local\Temp\cchRPJR6.s:1239   .rodata.__func__.4:00000000 __func__.4
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:18     .rodata.usart_init_async.str1.4:00000000 $d
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:28     .text.usart_init_async:00000000 $t
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:36     .text.usart_init_async:00000000 usart_init_async
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:334    .text.usart_init_async:000001c0 $d
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:347    .text.usart_register_irq:00000000 $t
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:354    .text.usart_register_irq:00000000 usart_register_irq
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:659    .text.usart_register_irq:000000c0 $d
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:671    .rodata.usart_set_baude.str1.4:00000000 $d
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:675    .text.usart_set_baude:00000000 $t
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:682    .text.usart_set_baude:00000000 usart_set_baude
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:780    .text.usart_set_baude:00000078 $d
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:789    .text.usart_init_dma_receive:00000000 $t
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:796    .text.usart_init_dma_receive:00000000 usart_init_dma_receive
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:1172   .text.usart_init_dma_receive:00000118 $d
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:1191   .text.usart_enable_idle_line_irq:00000000 $t
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:1198   .text.usart_enable_idle_line_irq:00000000 usart_enable_idle_line_irq
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:1239   .text.usart_enable_idle_line_irq:00000024 $d
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:1246   .rodata.__func__.0:00000000 $d
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:1250   .rodata.__func__.0:00000000 __func__.0
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:1253   .rodata.__func__.1:00000000 $d
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:1257   .rodata.__func__.1:00000000 __func__.1
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:1260   .rodata.__func__.2:00000000 $d
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:1264   .rodata.__func__.2:00000000 __func__.2
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:1267   .rodata.__func__.3:00000000 $d
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:1271   .rodata.__func__.3:00000000 __func__.3
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:1274   .rodata.__func__.4:00000000 $d
+C:\Users\Johan\AppData\Local\Temp\cc7vJiFg.s:1278   .rodata.__func__.4:00000000 __func__.4
 
 UNDEFINED SYMBOLS
 __assert_func
