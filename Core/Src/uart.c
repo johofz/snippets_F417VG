@@ -7,9 +7,13 @@
 
 #include "stm32f4xx.h"
 #include "uart.h"
+#include "timer.h"
 #include <assert.h>
 
-#define NVIC_MAX_PRIORITY 15
+#define NVIC_MAX_PRIORITY   15
+#define MAX_RX_BUF_SIZE     0xFFFF
+#define MAX_TX_BUF_SIZE     0xFFFF
+#define MAX_BAUDE_RATE      115200
 
  /* Simple USART initialisation */
 void usart_init_async(USART_TypeDef* usart)
@@ -102,38 +106,37 @@ void usart_init_async(USART_TypeDef* usart)
 
 void usart_register_irq(USART_TypeDef* usart, uint32_t priority)
 {
-    assert(usart);
-    uint32_t _priority = priority % NVIC_MAX_PRIORITY;
+    assert(usart && priority <= NVIC_MAX_PRIORITY);
 
     switch ((uint32_t)usart)
     {
     case (uint32_t)USART1:
-        __NVIC_SetPriority(USART1_IRQn, _priority);  // set interrupt priority
+        __NVIC_SetPriority(USART1_IRQn, priority);  // set interrupt priority
         __NVIC_EnableIRQ(USART1_IRQn);	            // enable interrupt
         break;
 
     case (uint32_t)USART2:
-        __NVIC_SetPriority(USART2_IRQn, _priority);
+        __NVIC_SetPriority(USART2_IRQn, priority);
         __NVIC_EnableIRQ(USART2_IRQn);
         break;
 
     case (uint32_t)USART3:
-        __NVIC_SetPriority(USART3_IRQn, _priority);
+        __NVIC_SetPriority(USART3_IRQn, priority);
         __NVIC_EnableIRQ(USART3_IRQn);
         break;
 
     case (uint32_t)USART6:
-        __NVIC_SetPriority(USART6_IRQn, _priority);
+        __NVIC_SetPriority(USART6_IRQn, priority);
         __NVIC_EnableIRQ(USART6_IRQn);
         break;
 
     case (uint32_t)UART4:
-        __NVIC_SetPriority(UART4_IRQn, _priority);
+        __NVIC_SetPriority(UART4_IRQn, priority);
         __NVIC_EnableIRQ(UART4_IRQn);
         break;
 
     case (uint32_t)UART5:
-        __NVIC_SetPriority(UART5_IRQn, _priority);
+        __NVIC_SetPriority(UART5_IRQn, priority);
         __NVIC_EnableIRQ(UART5_IRQn);
         break;
 
@@ -144,8 +147,7 @@ void usart_register_irq(USART_TypeDef* usart, uint32_t priority)
 
 void usart_set_baude(USART_TypeDef* usart, uint32_t baude)
 {
-    assert(usart);
-    assert(baude <= 115200);
+    assert(usart && baude <= MAX_BAUDE_RATE);
 
     float usartDiv = (float)SystemCoreClock / ((float)baude * 16.0f);
     uint16_t mentissa = (uint16_t)usartDiv;
@@ -156,7 +158,7 @@ void usart_set_baude(USART_TypeDef* usart, uint32_t baude)
 
 void usart_init_dma_receive(USART_TypeDef* usart, uint8_t* rxBuf, uint16_t size)
 {
-    assert(usart);
+    assert(usart && rxBuf && size <= MAX_RX_BUF_SIZE);
 
     DMA_Stream_TypeDef* dma;
 
@@ -244,61 +246,85 @@ void usart_init_dma_receive(USART_TypeDef* usart, uint8_t* rxBuf, uint16_t size)
     dma->CR |= (DMA_SxCR_EN);   // enable DMA
 }
 
-void usart_enable_idle_line_irq(USART_TypeDef* usart)
+uint32_t usart_rcv_timeout(USART_TypeDef* usart, uint8_t* rxBuf, uint16_t size, uint32_t timeout)
 {
-    assert(usart);
+    assert(usart && rxBuf && size <= MAX_RX_BUF_SIZE);
 
-    usart_register_irq(usart, 0);
-    usart->CR1 |= (USART_CR1_IDLEIE);   // enable idle line interrupt
+    uint64_t endTime = millis() + timeout;
+    uint32_t bytesRcvd = 0;
+
+    for (int i = 0; i < size; i++)
+    {
+        rxBuf[i] = usart->DR;
+        bytesRcvd++;
+        while (!(usart->SR & (USART_SR_RXNE))) // Wait for new data in data register
+        {
+            if (millis() > endTime) // check if timeout condition is met
+            {
+                return bytesRcvd;
+            }
+        }
+    }
+
+    return bytesRcvd;
 }
 
-void usart_rcv_dma_idle(USART_TypeDef* usart, uint8_t rxBuf, uint16_t size)
+uint32_t usart_rcv_until(USART_TypeDef* usart, uint8_t* rxBuf, uint16_t size, char terminator, uint32_t timeout)
+{
+    assert(usart && rxBuf && size <= MAX_RX_BUF_SIZE);
+
+    uint64_t endTime = millis() + timeout;
+    uint32_t bytesRcvd = 0;
+
+    for (int i = 0; i < size; i++)
+    {
+        rxBuf[i] = usart->DR;
+        bytesRcvd++;
+
+        if (rxBuf[i] == terminator)
+        {
+            break;
+        }
+
+        while (!(usart->SR & (USART_SR_RXNE))) // Wait for new data in data register
+        {
+            if (millis() > endTime) // check if timeout condition is met
+            {
+                return bytesRcvd;
+            }
+        }
+    }
+
+    return bytesRcvd;
+}
+
+void usart_rcv_idle(USART_TypeDef* usart, uint8_t* rxBuf, uint16_t size)
+{
+    usart_init_async(usart);
+    usart_register_irq(usart, 0);
+    usart_set_baude(usart, 115200);
+
+    usart->CR1 |= (USART_CR1_IDLEIE);
+
+    usart_init_dma_receive(usart, rxBuf, size);
+}
+
+void usart_send(USART_TypeDef* usart, uint8_t* txBuf, uint16_t size)
 {
     assert(usart);
-    assert(rxBuf);
+    assert(txBuf);
+    assert(size <= MAX_TX_BUF_SIZE);
 
-    DMA_Stream_TypeDef* dma;
-
-    switch ((uint32_t)usart)
+    for (int i = 0; i < size; i++)
     {
-    case (uint32_t)USART1:
-    {
-        dma = DMA2_Stream2;
-        break;
-    }
-    case (uint32_t)USART2:
-    {
-        dma = DMA1_Stream5;
-        break;
-    }
-    case (uint32_t)USART3:
-    {
-        dma = DMA1_Stream1;
-        break;
-    }
-    case (uint32_t)USART6:
-    {
-        dma = DMA2_Stream1;
-        break;
-    }
-    case (uint32_t)UART4:
-    {
-        dma = DMA1_Stream2;
-        break;
-    }
-    case (uint32_t)UART5:
-    {
-        dma = DMA1_Stream0;
-        break;
-    }
-    default:
-        assert(0);
+        usart->DR = txBuf[i];
+        while (!(usart->SR & (USART_SR_TXE))); // Wait for byte to be send to the shift register
     }
 
-    dma->CR &= ~(DMA_SxCR_EN);  // disable DMA
-    dma->M0AR = (uint32_t)rxBuf;
-    dma->PAR = (uint32_t)&usart->DR;
-    dma->NDTR = size;
+    while (usart->SR & (USART_SR_TC));  // Wait for last byte to be transferred
+}
 
-    dma->CR |= (DMA_SxCR_EN);   // enable DMA
+void usart_send_dma(USART_TypeDef* usart, uint8_t* txBuf, uint16_t size)
+{
+
 }
