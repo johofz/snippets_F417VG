@@ -8,7 +8,7 @@ volatile uint32_t timeBaseOverflow = 0; // Overflow counter for global timebase 
 
 void timer_start_global_timebase(TIM_TypeDef* globalTimer)
 {
-    asert(globalTimer);
+    assert(globalTimer);
 
     uint32_t arr = 0xFFFF;
     uint32_t timerBaseFreq = SystemCoreClock / 2;
